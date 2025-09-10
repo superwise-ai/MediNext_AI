@@ -1,0 +1,18 @@
+# Core Streamlit and Data Science Libraries
+streamlit==1.49.1
+pandas==2.2.3
+numpy==1.26.4
+plotly==5.24.1
+
+# HTTP and Environment
+requests==2.32.3
+python-dotenv==1.0.1
+
+# AgGrid for Interactive Tables
+streamlit-aggrid==0.3.4
+
+# Development and Testing Tools
+pytest==8.3.4
+black==24.10.0
+flake8==7.1.1
+pytest-cov==6.0.0

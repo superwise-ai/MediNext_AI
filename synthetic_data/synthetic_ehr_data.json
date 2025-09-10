@@ -1,0 +1,4544 @@
+[
+  {
+    "patient_id": "5e503a67-daea-48ba-8c73-a942cd8778e7",
+    "first_name": "Jennifer",
+    "middle_initial": "A",
+    "last_name": "Wilkins",
+    "name": "Jennifer A Wilkins",
+    "sex": "female",
+    "birth_date": "2019-06-12",
+    "address": "51648 Cheryl Ferry Suite 186, East Jamie, CA 25400",
+    "last_visit": "2025-07-19",
+    "conditions": [
+      "hypertension",
+      "asthma",
+      "depression"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 12.8,
+      "glucose": 126.7
+    }
+  },
+  {
+    "patient_id": "b0d26ee6-fa92-4906-82bd-e024f7acee22",
+    "first_name": "Erica",
+    "middle_initial": "D",
+    "last_name": "Morgan",
+    "name": "Erica D Morgan",
+    "sex": "female",
+    "birth_date": "2002-05-28",
+    "address": "241 Rodriguez Springs, Lake Nicholas, NC 78619",
+    "last_visit": "2025-06-18",
+    "conditions": [
+      "COPD"
+    ],
+    "medications": [
+      "sertraline"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.1,
+      "glucose": 149.5
+    }
+  },
+  {
+    "patient_id": "3764b52e-7fcd-43d2-9f89-60ad1eab5cd8",
+    "first_name": "Roger",
+    "middle_initial": "Z",
+    "last_name": "Williams",
+    "name": "Roger Z Williams",
+    "sex": "male",
+    "birth_date": "2001-09-26",
+    "address": "9682 Tina Hollow, East Tammiestad, ND 45323",
+    "last_visit": "2025-02-07",
+    "conditions": [
+      "arthritis",
+      "hypertension"
+    ],
+    "medications": [
+      "atorvastatin",
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.0,
+      "glucose": 163.5
+    }
+  },
+  {
+    "patient_id": "fe9e6246-635a-4ce2-941c-b03e71f2f9c4",
+    "first_name": "Franklin",
+    "middle_initial": "D",
+    "last_name": "Brown",
+    "name": "Franklin D Brown",
+    "sex": "male",
+    "birth_date": "2007-05-15",
+    "address": "538 Timothy Circle, Lake Travischester, OH 26924",
+    "last_visit": "2025-03-28",
+    "conditions": [
+      "asthma",
+      "hypertension"
+    ],
+    "medications": [
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 11.2,
+      "glucose": 136.4
+    }
+  },
+  {
+    "patient_id": "e47b342b-2a3a-4667-beb1-4f84147de9b0",
+    "first_name": "Mary",
+    "middle_initial": "H",
+    "last_name": "Hawkins",
+    "name": "Mary H Hawkins",
+    "sex": "female",
+    "birth_date": "2022-09-04",
+    "address": "42818 Dwayne Shoals, Blackwellville, KS 66714",
+    "last_visit": "2025-06-28",
+    "conditions": [
+      "hypertension"
+    ],
+    "medications": [
+      "metformin",
+      "sertraline"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.9,
+      "glucose": 154.8
+    }
+  },
+  {
+    "patient_id": "eb3f4d0a-3e46-4c1c-ae93-761b6aae0b74",
+    "first_name": "Austin",
+    "middle_initial": "W",
+    "last_name": "Blevins",
+    "name": "Austin W Blevins",
+    "sex": "male",
+    "birth_date": "2014-08-05",
+    "address": "62298 Susan Passage Suite 511, Manningshire, ID 98693",
+    "last_visit": "2025-02-02",
+    "conditions": [
+      "depression",
+      "diabetes",
+      "COPD"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 17.2,
+      "glucose": 147.5
+    }
+  },
+  {
+    "patient_id": "b1817b72-82a4-45f2-89cb-56b82017a69d",
+    "first_name": "Stephanie",
+    "middle_initial": "V",
+    "last_name": "Bradley",
+    "name": "Stephanie V Bradley",
+    "sex": "female",
+    "birth_date": "2004-11-06",
+    "address": "6058 Crystal Cliff, West Nicole, SC 05131",
+    "last_visit": "2025-03-07",
+    "conditions": [
+      "diabetes"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 16.7,
+      "glucose": 98.1
+    }
+  },
+  {
+    "patient_id": "4fd550c3-43ab-4549-9c41-72e672fce34d",
+    "first_name": "Jeremy",
+    "middle_initial": "X",
+    "last_name": "Morales",
+    "name": "Jeremy X Morales",
+    "sex": "male",
+    "birth_date": "2001-09-27",
+    "address": "0352 Erica Road Apt. 019, Port Randy, HI 36234",
+    "last_visit": "2025-03-25",
+    "conditions": [
+      "depression",
+      "COPD"
+    ],
+    "medications": [
+      "metformin",
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.4,
+      "glucose": 109.2
+    }
+  },
+  {
+    "patient_id": "4d04125f-9de9-4eb5-9352-e69d63663481",
+    "first_name": "Steven",
+    "middle_initial": "U",
+    "last_name": "Stewart",
+    "name": "Steven U Stewart",
+    "sex": "male",
+    "birth_date": "1968-03-06",
+    "address": "21243 Coleman Bridge Apt. 180, Philipton, IA 13557",
+    "last_visit": "2025-04-26",
+    "conditions": [
+      "diabetes"
+    ],
+    "medications": [
+      "sertraline"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.2,
+      "glucose": 120.2
+    }
+  },
+  {
+    "patient_id": "bdc20b73-fa4c-429b-a88b-fbe35be070a1",
+    "first_name": "Kenneth",
+    "middle_initial": "Q",
+    "last_name": "Hudson",
+    "name": "Kenneth Q Hudson",
+    "sex": "male",
+    "birth_date": "1960-07-04",
+    "address": "83886 Kimberly Drive, Briannaburgh, NH 54841",
+    "last_visit": "2025-04-15",
+    "conditions": [
+      "hypertension"
+    ],
+    "medications": [
+      "atorvastatin",
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.5,
+      "glucose": 173.9
+    }
+  },
+  {
+    "patient_id": "8a7901dc-d0f6-4bf1-ac95-48a85a80c814",
+    "first_name": "Jacob",
+    "middle_initial": "B",
+    "last_name": "Parrish",
+    "name": "Jacob B Parrish",
+    "sex": "male",
+    "birth_date": "1994-07-14",
+    "address": "0556 Martinez Port Apt. 917, North Christinaton, AR 40982",
+    "last_visit": "2025-07-18",
+    "conditions": [
+      "arthritis"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.4,
+      "glucose": 169.0
+    }
+  },
+  {
+    "patient_id": "e72c9f16-3855-4b58-ac61-0ed70f137e3f",
+    "first_name": "Kelly",
+    "middle_initial": "D",
+    "last_name": "Porter",
+    "name": "Kelly D Porter",
+    "sex": "female",
+    "birth_date": "1954-11-12",
+    "address": "9837 Rachel Plaza, East Emily, NH 02395",
+    "last_visit": "2025-06-04",
+    "conditions": [
+      "hypertension",
+      "arthritis",
+      "COPD"
+    ],
+    "medications": [
+      "sertraline"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.3,
+      "glucose": 189.9
+    }
+  },
+  {
+    "patient_id": "43e7a280-182e-43da-9f4f-b4dacece975d",
+    "first_name": "Benjamin",
+    "middle_initial": "X",
+    "last_name": "Jones",
+    "name": "Benjamin X Jones",
+    "sex": "male",
+    "birth_date": "1986-03-27",
+    "address": "75768 Debra Way Apt. 808, Johnfort, TX 11303",
+    "last_visit": "2025-04-11",
+    "conditions": [
+      "arthritis",
+      "hypertension"
+    ],
+    "medications": [
+      "metformin",
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.2,
+      "glucose": 186.0
+    }
+  },
+  {
+    "patient_id": "2bd47c69-1fe6-4943-90f2-3ccc6cb4c454",
+    "first_name": "Ashley",
+    "middle_initial": "P",
+    "last_name": "Wallace",
+    "name": "Ashley P Wallace",
+    "sex": "female",
+    "birth_date": "1954-06-27",
+    "address": "9208 Johnson Neck Suite 340, Richardsonside, KS 30706",
+    "last_visit": "2025-01-22",
+    "conditions": [
+      "diabetes"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 12.1,
+      "glucose": 89.5
+    }
+  },
+  {
+    "patient_id": "903f13f6-26bd-44db-843c-8620017f5b4b",
+    "first_name": "Riley",
+    "middle_initial": "Q",
+    "last_name": "Hull",
+    "name": "Riley Q Hull",
+    "sex": "male",
+    "birth_date": "1987-08-14",
+    "address": "USNS Murphy, FPO AE 80386",
+    "last_visit": "2025-05-29",
+    "conditions": [
+      "arthritis",
+      "hypertension",
+      "diabetes"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 15.3,
+      "glucose": 185.2
+    }
+  },
+  {
+    "patient_id": "94bf5aba-aea5-45cf-abea-631864b0bca6",
+    "first_name": "Jordan",
+    "middle_initial": "B",
+    "last_name": "Clark",
+    "name": "Jordan B Clark",
+    "sex": "male",
+    "birth_date": "1971-03-12",
+    "address": "848 Medina Shoals Suite 726, Lake Coreyville, KY 87464",
+    "last_visit": "2025-03-16",
+    "conditions": [
+      "depression",
+      "COPD"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 16.1,
+      "glucose": 194.1
+    }
+  },
+  {
+    "patient_id": "a4739077-b03a-4928-a3c7-59a1fb3a4c43",
+    "first_name": "Jennifer",
+    "middle_initial": "Z",
+    "last_name": "Woods",
+    "name": "Jennifer Z Woods",
+    "sex": "female",
+    "birth_date": "1945-09-05",
+    "address": "2052 Gentry Loaf, West Marcus, PA 41944",
+    "last_visit": "2025-04-13",
+    "conditions": [
+      "diabetes"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 11.2,
+      "glucose": 113.0
+    }
+  },
+  {
+    "patient_id": "abda7eb4-58ce-4ecf-86d8-54f975326aea",
+    "first_name": "Heather",
+    "middle_initial": "S",
+    "last_name": "Burke",
+    "name": "Heather S Burke",
+    "sex": "female",
+    "birth_date": "1970-05-04",
+    "address": "948 Victor Square Apt. 753, Braybury, RI 67113",
+    "last_visit": "2025-03-22",
+    "conditions": [
+      "diabetes"
+    ],
+    "medications": [
+      "sertraline",
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.2,
+      "glucose": 136.7
+    }
+  },
+  {
+    "patient_id": "18f4b94b-ea1d-472e-91d3-eedf6a597af4",
+    "first_name": "Elizabeth",
+    "middle_initial": "M",
+    "last_name": "Perez",
+    "name": "Elizabeth M Perez",
+    "sex": "female",
+    "birth_date": "1948-04-18",
+    "address": "2513 Aaron Junction, Brianaside, RI 36793",
+    "last_visit": "2025-08-14",
+    "conditions": [
+      "hypertension",
+      "arthritis"
+    ],
+    "medications": [
+      "atorvastatin",
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.1,
+      "glucose": 144.3
+    }
+  },
+  {
+    "patient_id": "1efddfab-94bd-4da3-857c-0a95644699bd",
+    "first_name": "William",
+    "middle_initial": "T",
+    "last_name": "Reed",
+    "name": "William T Reed",
+    "sex": "male",
+    "birth_date": "1988-03-23",
+    "address": "41240 Donald Flat Suite 345, North Sharonberg, WY 97642",
+    "last_visit": "2025-02-25",
+    "conditions": [
+      "diabetes",
+      "asthma",
+      "depression"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 14.5,
+      "glucose": 160.1
+    }
+  },
+  {
+    "patient_id": "60c4660f-24da-4b33-8929-281b050908a0",
+    "first_name": "Walter",
+    "middle_initial": "Z",
+    "last_name": "Colon",
+    "name": "Walter Z Colon",
+    "sex": "male",
+    "birth_date": "1973-04-09",
+    "address": "88271 Adkins Streets, North Charles, PR 46943",
+    "last_visit": "2025-02-01",
+    "conditions": [
+      "COPD",
+      "hypertension"
+    ],
+    "medications": [
+      "sertraline"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.5,
+      "glucose": 84.0
+    }
+  },
+  {
+    "patient_id": "121ba84a-67e0-4920-94df-f4018aa02a2e",
+    "first_name": "Isaac",
+    "middle_initial": "N",
+    "last_name": "Phillips",
+    "name": "Isaac N Phillips",
+    "sex": "male",
+    "birth_date": "1964-10-28",
+    "address": "260 Thomas Glens, Port Gabriela, OH 96758",
+    "last_visit": "2025-05-23",
+    "conditions": [
+      "asthma"
+    ],
+    "medications": [
+      "lisinopril",
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.9,
+      "glucose": 159.2
+    }
+  },
+  {
+    "patient_id": "5e588964-908a-4d57-847d-757c0095b6dd",
+    "first_name": "Taylor",
+    "middle_initial": "Q",
+    "last_name": "Roberts",
+    "name": "Taylor Q Roberts",
+    "sex": "female",
+    "birth_date": "1999-05-25",
+    "address": "18278 Charles Village Apt. 162, South Danafurt, KS 37936",
+    "last_visit": "2025-02-01",
+    "conditions": [
+      "COPD",
+      "depression"
+    ],
+    "medications": [
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.8,
+      "glucose": 132.5
+    }
+  },
+  {
+    "patient_id": "6d462306-1910-4e1c-a317-55ce2d2349f6",
+    "first_name": "Kelly",
+    "middle_initial": "Z",
+    "last_name": "Mora",
+    "name": "Kelly Z Mora",
+    "sex": "female",
+    "birth_date": "1948-01-21",
+    "address": "568 Lewis Loaf, Adamchester, NV 55350",
+    "last_visit": "2025-04-26",
+    "conditions": [
+      "hypertension",
+      "diabetes"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.0,
+      "glucose": 157.9
+    }
+  },
+  {
+    "patient_id": "81d9ffad-2cb5-4dd0-99ab-48020bc9139e",
+    "first_name": "Brian",
+    "middle_initial": "E",
+    "last_name": "Robinson",
+    "name": "Brian E Robinson",
+    "sex": "male",
+    "birth_date": "1951-11-30",
+    "address": "832 Gregory Avenue, East Alexiston, KS 16495",
+    "last_visit": "2025-07-17",
+    "conditions": [
+      "hypertension"
+    ],
+    "medications": [
+      "metformin",
+      "atorvastatin"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.2,
+      "glucose": 105.4
+    }
+  },
+  {
+    "patient_id": "a2c7e288-56a5-4738-b989-927195aba85f",
+    "first_name": "Edwin",
+    "middle_initial": "A",
+    "last_name": "Olson",
+    "name": "Edwin A Olson",
+    "sex": "male",
+    "birth_date": "1943-02-16",
+    "address": "47116 Shannon Mountains Apt. 863, Foleychester, TX 47316",
+    "last_visit": "2025-06-17",
+    "conditions": [
+      "arthritis",
+      "asthma"
+    ],
+    "medications": [
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.0,
+      "glucose": 117.9
+    }
+  },
+  {
+    "patient_id": "7a5d5578-b2b5-47db-b5ab-784f1e55e4a4",
+    "first_name": "Danny",
+    "middle_initial": "A",
+    "last_name": "Murray",
+    "name": "Danny A Murray",
+    "sex": "male",
+    "birth_date": "2017-01-29",
+    "address": "PSC 1941, Box 8301, APO AA 86447",
+    "last_visit": "2025-03-18",
+    "conditions": [
+      "diabetes",
+      "arthritis"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 11.9,
+      "glucose": 109.8
+    }
+  },
+  {
+    "patient_id": "064b1a31-6d75-4b7c-84a5-fd85bfefae08",
+    "first_name": "Kristin",
+    "middle_initial": "P",
+    "last_name": "White",
+    "name": "Kristin P White",
+    "sex": "female",
+    "birth_date": "1948-01-21",
+    "address": "36039 Fisher Isle, Fisherchester, AR 24719",
+    "last_visit": "2025-06-06",
+    "conditions": [
+      "diabetes",
+      "hypertension"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 11.7,
+      "glucose": 136.8
+    }
+  },
+  {
+    "patient_id": "0c80f81f-c4d7-4981-8ebb-72a702fa05fc",
+    "first_name": "Michelle",
+    "middle_initial": "G",
+    "last_name": "Richardson",
+    "name": "Michelle G Richardson",
+    "sex": "female",
+    "birth_date": "1976-08-26",
+    "address": "762 Christopher Valleys, South Shelley, OK 57957",
+    "last_visit": "2025-01-07",
+    "conditions": [
+      "asthma",
+      "hypertension"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 11.6,
+      "glucose": 89.3
+    }
+  },
+  {
+    "patient_id": "8bfc4c02-8fb9-4e16-a9cc-641f57ef25a8",
+    "first_name": "Evan",
+    "middle_initial": "A",
+    "last_name": "Murphy",
+    "name": "Evan A Murphy",
+    "sex": "male",
+    "birth_date": "1979-02-10",
+    "address": "23779 Matthew Plains Suite 758, Hannahside, MI 91252",
+    "last_visit": "2025-02-13",
+    "conditions": [
+      "depression",
+      "arthritis"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.4,
+      "glucose": 106.9
+    }
+  },
+  {
+    "patient_id": "736e8e83-f550-40ce-8a35-b61875a4a698",
+    "first_name": "Benjamin",
+    "middle_initial": "D",
+    "last_name": "Garrison",
+    "name": "Benjamin D Garrison",
+    "sex": "male",
+    "birth_date": "2001-04-06",
+    "address": "35756 Dodson Court Apt. 570, Lake Benjamin, MN 77183",
+    "last_visit": "2025-07-22",
+    "conditions": [
+      "depression"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 14.6,
+      "glucose": 155.4
+    }
+  },
+  {
+    "patient_id": "8050868e-fe46-40bf-a575-12e0ad9f4215",
+    "first_name": "April",
+    "middle_initial": "Z",
+    "last_name": "Johnson",
+    "name": "April Z Johnson",
+    "sex": "female",
+    "birth_date": "1993-07-02",
+    "address": "5633 Dyer Alley Apt. 393, Doyleton, VT 61645",
+    "last_visit": "2025-02-03",
+    "conditions": [
+      "hypertension",
+      "depression",
+      "diabetes"
+    ],
+    "medications": [
+      "sertraline",
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.8,
+      "glucose": 171.6
+    }
+  },
+  {
+    "patient_id": "0793b580-5278-4154-ba2b-e06f9d3dc4a0",
+    "first_name": "John",
+    "middle_initial": "Q",
+    "last_name": "Fry",
+    "name": "John Q Fry",
+    "sex": "male",
+    "birth_date": "1943-08-14",
+    "address": "159 Lane Isle, Jasonland, NE 26407",
+    "last_visit": "2025-04-16",
+    "conditions": [
+      "COPD",
+      "arthritis"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 13.4,
+      "glucose": 73.6
+    }
+  },
+  {
+    "patient_id": "f9752ab7-cd73-48f4-9c94-e04a5f3efdcf",
+    "first_name": "Audrey",
+    "middle_initial": "P",
+    "last_name": "Thompson",
+    "name": "Audrey P Thompson",
+    "sex": "female",
+    "birth_date": "1945-12-19",
+    "address": "3897 Joseph Oval, Lisamouth, VI 98740",
+    "last_visit": "2025-07-10",
+    "conditions": [
+      "arthritis",
+      "depression"
+    ],
+    "medications": [
+      "sertraline",
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.1,
+      "glucose": 126.9
+    }
+  },
+  {
+    "patient_id": "3e31d47f-c4ab-475e-b585-21449bd3e984",
+    "first_name": "Mary",
+    "middle_initial": "B",
+    "last_name": "Curry",
+    "name": "Mary B Curry",
+    "sex": "female",
+    "birth_date": "1936-09-01",
+    "address": "54770 Erin Path, New Annettemouth, IL 78108",
+    "last_visit": "2025-04-12",
+    "conditions": [
+      "COPD",
+      "asthma"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 13.5,
+      "glucose": 150.9
+    }
+  },
+  {
+    "patient_id": "dd7a0c6f-8e11-4833-9ba4-655b9694462b",
+    "first_name": "William",
+    "middle_initial": "H",
+    "last_name": "Decker",
+    "name": "William H Decker",
+    "sex": "male",
+    "birth_date": "1952-12-08",
+    "address": "69375 Robert Land, West Samantha, NV 99580",
+    "last_visit": "2025-06-19",
+    "conditions": [
+      "hypertension",
+      "arthritis"
+    ],
+    "medications": [
+      "metformin",
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.1,
+      "glucose": 110.2
+    }
+  },
+  {
+    "patient_id": "d1e3e958-bf0c-49fc-bae2-7ed87eb25cbe",
+    "first_name": "Timothy",
+    "middle_initial": "U",
+    "last_name": "Clay",
+    "name": "Timothy U Clay",
+    "sex": "male",
+    "birth_date": "1962-02-15",
+    "address": "62898 Catherine Stream, Toddmouth, NE 34212",
+    "last_visit": "2025-04-26",
+    "conditions": [
+      "hypertension",
+      "COPD",
+      "depression"
+    ],
+    "medications": [
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.8,
+      "glucose": 187.4
+    }
+  },
+  {
+    "patient_id": "01e0fa79-b32b-4983-8bbc-8e2b372c9673",
+    "first_name": "Stephanie",
+    "middle_initial": "V",
+    "last_name": "Dalton",
+    "name": "Stephanie V Dalton",
+    "sex": "female",
+    "birth_date": "2024-11-30",
+    "address": "22468 Shawn Ramp Apt. 561, Jonesville, PR 92990",
+    "last_visit": "2025-05-13",
+    "conditions": [
+      "diabetes",
+      "COPD",
+      "arthritis"
+    ],
+    "medications": [
+      "atorvastatin",
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 16.9,
+      "glucose": 142.0
+    }
+  },
+  {
+    "patient_id": "3fa7d6c3-32af-4dc6-bb4f-71010e94d324",
+    "first_name": "Timothy",
+    "middle_initial": "R",
+    "last_name": "Martin",
+    "name": "Timothy R Martin",
+    "sex": "male",
+    "birth_date": "1980-11-14",
+    "address": "916 Elizabeth Villages, Higginsland, AK 43487",
+    "last_visit": "2025-03-17",
+    "conditions": [
+      "arthritis"
+    ],
+    "medications": [
+      "atorvastatin",
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.2,
+      "glucose": 79.5
+    }
+  },
+  {
+    "patient_id": "07a19aa4-d55e-43f5-bfd2-b3465fea9435",
+    "first_name": "Brett",
+    "middle_initial": "A",
+    "last_name": "Gonzalez",
+    "name": "Brett A Gonzalez",
+    "sex": "male",
+    "birth_date": "1958-12-20",
+    "address": "USS Ramos, FPO AP 67815",
+    "last_visit": "2025-06-29",
+    "conditions": [
+      "hypertension",
+      "arthritis",
+      "asthma"
+    ],
+    "medications": [
+      "metformin",
+      "sertraline"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.4,
+      "glucose": 99.3
+    }
+  },
+  {
+    "patient_id": "183f3c2e-c2ac-42ed-90ae-12b3869e72e2",
+    "first_name": "Alexandra",
+    "middle_initial": "H",
+    "last_name": "Ashley",
+    "name": "Alexandra H Ashley",
+    "sex": "female",
+    "birth_date": "2015-09-11",
+    "address": "561 Butler Isle, New Alejandratown, VI 26277",
+    "last_visit": "2025-04-08",
+    "conditions": [
+      "arthritis",
+      "COPD",
+      "depression"
+    ],
+    "medications": [
+      "metformin",
+      "atorvastatin"
+    ],
+    "lab_results": {
+      "hemoglobin": 16.6,
+      "glucose": 188.8
+    }
+  },
+  {
+    "patient_id": "55190a9c-ea22-4823-b751-11a7caf743fd",
+    "first_name": "Matthew",
+    "middle_initial": "U",
+    "last_name": "Kelley",
+    "name": "Matthew U Kelley",
+    "sex": "male",
+    "birth_date": "2006-07-08",
+    "address": "PSC 0720, Box 6429, APO AP 98741",
+    "last_visit": "2025-01-21",
+    "conditions": [
+      "hypertension",
+      "depression",
+      "asthma"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 13.6,
+      "glucose": 159.0
+    }
+  },
+  {
+    "patient_id": "b0057bde-d826-4336-8523-76e5858a4b59",
+    "first_name": "Sharon",
+    "middle_initial": "F",
+    "last_name": "Fitzgerald",
+    "name": "Sharon F Fitzgerald",
+    "sex": "female",
+    "birth_date": "2025-04-10",
+    "address": "1011 Jesus Drive Apt. 332, Diamondland, IA 03219",
+    "last_visit": "2025-07-04",
+    "conditions": [
+      "hypertension",
+      "asthma"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 13.9,
+      "glucose": 125.2
+    }
+  },
+  {
+    "patient_id": "a69ab1e9-787c-41d4-8bfd-6b1443461245",
+    "first_name": "Hunter",
+    "middle_initial": "F",
+    "last_name": "Marshall",
+    "name": "Hunter F Marshall",
+    "sex": "male",
+    "birth_date": "2009-04-25",
+    "address": "67947 Richard Lakes, Katherinefurt, MT 73320",
+    "last_visit": "2025-08-22",
+    "conditions": [
+      "diabetes"
+    ],
+    "medications": [
+      "sertraline",
+      "atorvastatin"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.7,
+      "glucose": 184.5
+    }
+  },
+  {
+    "patient_id": "839787ae-46de-4d17-8eb3-80e040938e2b",
+    "first_name": "Brandon",
+    "middle_initial": "V",
+    "last_name": "Rosales",
+    "name": "Brandon V Rosales",
+    "sex": "male",
+    "birth_date": "1959-05-27",
+    "address": "4164 Kramer Brooks Suite 642, Suzanneburgh, IA 21347",
+    "last_visit": "2025-07-23",
+    "conditions": [
+      "hypertension",
+      "depression",
+      "asthma"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 16.2,
+      "glucose": 132.3
+    }
+  },
+  {
+    "patient_id": "2481868d-95a5-42e9-a931-888a3fb0418b",
+    "first_name": "Holly",
+    "middle_initial": "H",
+    "last_name": "Ward",
+    "name": "Holly H Ward",
+    "sex": "female",
+    "birth_date": "2019-07-05",
+    "address": "951 Tyler Square Suite 124, Lake Mary, WA 70734",
+    "last_visit": "2025-03-12",
+    "conditions": [
+      "arthritis",
+      "diabetes",
+      "asthma"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 15.7,
+      "glucose": 117.7
+    }
+  },
+  {
+    "patient_id": "c1c4ba5c-27e1-4f44-b9df-aae2dff20253",
+    "first_name": "Elizabeth",
+    "middle_initial": "I",
+    "last_name": "Ryan",
+    "name": "Elizabeth I Ryan",
+    "sex": "female",
+    "birth_date": "1942-04-20",
+    "address": "92018 Matthew Wells, Lisatown, CO 92513",
+    "last_visit": "2025-07-13",
+    "conditions": [
+      "hypertension"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 12.6,
+      "glucose": 142.8
+    }
+  },
+  {
+    "patient_id": "414c8290-d8d9-40d6-ad3c-5f9d76492afb",
+    "first_name": "James",
+    "middle_initial": "C",
+    "last_name": "Parker",
+    "name": "James C Parker",
+    "sex": "male",
+    "birth_date": "1977-10-20",
+    "address": "686 Sullivan Loaf, North Heatherview, KS 01528",
+    "last_visit": "2025-02-14",
+    "conditions": [
+      "depression"
+    ],
+    "medications": [
+      "metformin",
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.4,
+      "glucose": 178.9
+    }
+  },
+  {
+    "patient_id": "fb3c3451-d08a-4252-be5d-30920b16f9d5",
+    "first_name": "Patricia",
+    "middle_initial": "Z",
+    "last_name": "Perry",
+    "name": "Patricia Z Perry",
+    "sex": "female",
+    "birth_date": "1938-07-25",
+    "address": "677 Jeremy Underpass Suite 968, Codychester, TN 09381",
+    "last_visit": "2025-08-12",
+    "conditions": [
+      "asthma",
+      "hypertension",
+      "diabetes"
+    ],
+    "medications": [
+      "atorvastatin"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.0,
+      "glucose": 145.5
+    }
+  },
+  {
+    "patient_id": "cd9d7fd7-8008-4086-9c90-6a4fc953bdc9",
+    "first_name": "Gina",
+    "middle_initial": "X",
+    "last_name": "Mcguire",
+    "name": "Gina X Mcguire",
+    "sex": "female",
+    "birth_date": "2017-12-13",
+    "address": "142 Thomas Points Apt. 443, Robbinsshire, SD 07559",
+    "last_visit": "2025-08-09",
+    "conditions": [
+      "depression",
+      "asthma",
+      "arthritis"
+    ],
+    "medications": [
+      "lisinopril",
+      "atorvastatin"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.3,
+      "glucose": 161.3
+    }
+  },
+  {
+    "patient_id": "4df20df7-fa68-4ff3-b6f2-1415b88c031d",
+    "first_name": "Zachary",
+    "middle_initial": "W",
+    "last_name": "Elliott",
+    "name": "Zachary W Elliott",
+    "sex": "male",
+    "birth_date": "1984-10-29",
+    "address": "88060 Tanya Cape Apt. 464, Patricialand, NM 52254",
+    "last_visit": "2025-08-16",
+    "conditions": [
+      "hypertension",
+      "arthritis"
+    ],
+    "medications": [
+      "lisinopril",
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.3,
+      "glucose": 185.4
+    }
+  },
+  {
+    "patient_id": "c87626ca-ef08-4901-aa67-42b684fbbffc",
+    "first_name": "Christine",
+    "middle_initial": "L",
+    "last_name": "King",
+    "name": "Christine L King",
+    "sex": "female",
+    "birth_date": "1999-05-02",
+    "address": "6800 Carl Ramp Suite 780, South Brandon, OK 78490",
+    "last_visit": "2025-01-19",
+    "conditions": [
+      "hypertension",
+      "COPD"
+    ],
+    "medications": [
+      "lisinopril",
+      "atorvastatin"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.5,
+      "glucose": 150.7
+    }
+  },
+  {
+    "patient_id": "579c20c0-4310-40c7-b839-ebfba858aa71",
+    "first_name": "Rachel",
+    "middle_initial": "D",
+    "last_name": "Sullivan",
+    "name": "Rachel D Sullivan",
+    "sex": "female",
+    "birth_date": "1945-12-27",
+    "address": "18662 Rebecca Port, New Anntown, NV 41691",
+    "last_visit": "2025-07-29",
+    "conditions": [
+      "arthritis"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 13.3,
+      "glucose": 179.4
+    }
+  },
+  {
+    "patient_id": "c8f33458-2f8a-4020-91d3-06bbc1833945",
+    "first_name": "Susan",
+    "middle_initial": "U",
+    "last_name": "Conrad",
+    "name": "Susan U Conrad",
+    "sex": "female",
+    "birth_date": "1999-07-25",
+    "address": "0718 Robinson Lakes Apt. 262, Lake Tanyastad, MP 45885",
+    "last_visit": "2025-04-22",
+    "conditions": [
+      "COPD"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 13.0,
+      "glucose": 151.5
+    }
+  },
+  {
+    "patient_id": "3dda9cf3-14fe-4b31-a63e-0c835cd21fa4",
+    "first_name": "Lisa",
+    "middle_initial": "E",
+    "last_name": "Krause",
+    "name": "Lisa E Krause",
+    "sex": "female",
+    "birth_date": "1949-06-19",
+    "address": "23486 Travis Circles Apt. 016, Dawnchester, VT 36677",
+    "last_visit": "2025-01-10",
+    "conditions": [
+      "hypertension",
+      "asthma"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 15.5,
+      "glucose": 182.2
+    }
+  },
+  {
+    "patient_id": "96d0eb87-bdac-4ff4-b4c1-b5ef21e8769a",
+    "first_name": "Keith",
+    "middle_initial": "O",
+    "last_name": "Banks",
+    "name": "Keith O Banks",
+    "sex": "male",
+    "birth_date": "1989-12-10",
+    "address": "510 Williams Viaduct Apt. 437, New Natalieberg, OH 21352",
+    "last_visit": "2025-03-30",
+    "conditions": [
+      "arthritis",
+      "COPD"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.9,
+      "glucose": 169.5
+    }
+  },
+  {
+    "patient_id": "bcd22bfa-6bd4-4a7e-988a-f12cf6805721",
+    "first_name": "Laurie",
+    "middle_initial": "A",
+    "last_name": "Duran",
+    "name": "Laurie A Duran",
+    "sex": "female",
+    "birth_date": "1948-04-03",
+    "address": "389 Robert Freeway, Clayborough, CA 09170",
+    "last_visit": "2025-07-15",
+    "conditions": [
+      "diabetes",
+      "COPD",
+      "depression"
+    ],
+    "medications": [
+      "lisinopril",
+      "atorvastatin"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.9,
+      "glucose": 100.0
+    }
+  },
+  {
+    "patient_id": "3783dde6-9415-4719-b119-d9f62e9d55b4",
+    "first_name": "Valerie",
+    "middle_initial": "S",
+    "last_name": "Hendrix",
+    "name": "Valerie S Hendrix",
+    "sex": "female",
+    "birth_date": "2007-03-10",
+    "address": "7570 Daniels Estates Suite 357, South Daniel, MA 22034",
+    "last_visit": "2025-07-17",
+    "conditions": [
+      "depression"
+    ],
+    "medications": [
+      "albuterol",
+      "atorvastatin"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.9,
+      "glucose": 196.1
+    }
+  },
+  {
+    "patient_id": "c0d1f208-0bbc-4959-8894-f12e0b14c33c",
+    "first_name": "Ryan",
+    "middle_initial": "M",
+    "last_name": "Fisher",
+    "name": "Ryan M Fisher",
+    "sex": "male",
+    "birth_date": "2008-01-17",
+    "address": "4714 Baxter Mall, South Alexandra, KS 64345",
+    "last_visit": "2025-08-12",
+    "conditions": [
+      "asthma",
+      "hypertension"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 12.2,
+      "glucose": 76.0
+    }
+  },
+  {
+    "patient_id": "15af5636-0fb6-4b98-bb03-18d90b1497f3",
+    "first_name": "Sean",
+    "middle_initial": "T",
+    "last_name": "Smith",
+    "name": "Sean T Smith",
+    "sex": "male",
+    "birth_date": "2013-12-25",
+    "address": "1692 Jennifer Crossing, Port Laurie, HI 60155",
+    "last_visit": "2025-07-31",
+    "conditions": [
+      "diabetes",
+      "asthma"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 12.3,
+      "glucose": 98.0
+    }
+  },
+  {
+    "patient_id": "00e562a6-00f9-4a53-8267-d81423a5e737",
+    "first_name": "Michael",
+    "middle_initial": "J",
+    "last_name": "Campbell",
+    "name": "Michael J Campbell",
+    "sex": "male",
+    "birth_date": "1968-02-26",
+    "address": "646 Zachary Forest, South Markshire, DC 59747",
+    "last_visit": "2025-04-03",
+    "conditions": [
+      "asthma",
+      "depression"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 15.2,
+      "glucose": 150.0
+    }
+  },
+  {
+    "patient_id": "434c9e33-7fe3-4d3f-9159-a7c49d1823aa",
+    "first_name": "Suzanne",
+    "middle_initial": "J",
+    "last_name": "Hernandez",
+    "name": "Suzanne J Hernandez",
+    "sex": "female",
+    "birth_date": "1940-11-21",
+    "address": "01753 Daniel Spur Suite 896, Mcdowellstad, WY 69488",
+    "last_visit": "2025-01-16",
+    "conditions": [
+      "asthma",
+      "COPD"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 14.8,
+      "glucose": 146.5
+    }
+  },
+  {
+    "patient_id": "47aac516-5c4a-4edf-a536-769e7c82a621",
+    "first_name": "Danielle",
+    "middle_initial": "M",
+    "last_name": "Hayes",
+    "name": "Danielle M Hayes",
+    "sex": "female",
+    "birth_date": "1985-08-27",
+    "address": "49141 Mendoza Pine Apt. 414, Port Kevinmouth, AZ 41219",
+    "last_visit": "2025-05-07",
+    "conditions": [
+      "asthma",
+      "diabetes",
+      "arthritis"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 12.1,
+      "glucose": 107.7
+    }
+  },
+  {
+    "patient_id": "51f58d63-7b72-4b51-be23-278de7af67d8",
+    "first_name": "Brandon",
+    "middle_initial": "T",
+    "last_name": "Green",
+    "name": "Brandon T Green",
+    "sex": "male",
+    "birth_date": "1936-01-11",
+    "address": "47080 Scott Isle, South John, WI 36290",
+    "last_visit": "2025-05-21",
+    "conditions": [
+      "diabetes",
+      "arthritis",
+      "depression"
+    ],
+    "medications": [
+      "albuterol",
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 16.5,
+      "glucose": 190.4
+    }
+  },
+  {
+    "patient_id": "12f559f6-46ef-4a17-a68a-d7068023d8a6",
+    "first_name": "Scott",
+    "middle_initial": "E",
+    "last_name": "Colon",
+    "name": "Scott E Colon",
+    "sex": "male",
+    "birth_date": "1981-07-20",
+    "address": "6219 Joseph Springs, Lake Michelle, DE 38295",
+    "last_visit": "2025-07-20",
+    "conditions": [
+      "arthritis"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 16.2,
+      "glucose": 100.3
+    }
+  },
+  {
+    "patient_id": "9035d214-7b4a-4650-b3fc-393976566c3a",
+    "first_name": "Austin",
+    "middle_initial": "F",
+    "last_name": "Sanders",
+    "name": "Austin F Sanders",
+    "sex": "male",
+    "birth_date": "1981-09-28",
+    "address": "94381 Michael Meadows, Lyonsville, NM 65629",
+    "last_visit": "2025-01-28",
+    "conditions": [
+      "hypertension"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 11.9,
+      "glucose": 125.2
+    }
+  },
+  {
+    "patient_id": "be988ae9-e455-4419-bf05-f8f3bf60e503",
+    "first_name": "Pamela",
+    "middle_initial": "H",
+    "last_name": "Erickson",
+    "name": "Pamela H Erickson",
+    "sex": "female",
+    "birth_date": "2004-06-27",
+    "address": "73999 Katherine Viaduct, West Rebeccaland, AL 95067",
+    "last_visit": "2025-06-27",
+    "conditions": [
+      "diabetes"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 15.4,
+      "glucose": 137.2
+    }
+  },
+  {
+    "patient_id": "4ca53108-0b37-4d01-9fb5-defa8d2b4ea8",
+    "first_name": "Jennifer",
+    "middle_initial": "M",
+    "last_name": "Edwards",
+    "name": "Jennifer M Edwards",
+    "sex": "female",
+    "birth_date": "1995-05-04",
+    "address": "Unit 4942 Box 2094, DPO AA 94197",
+    "last_visit": "2025-04-27",
+    "conditions": [
+      "asthma"
+    ],
+    "medications": [
+      "lisinopril",
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 11.1,
+      "glucose": 174.9
+    }
+  },
+  {
+    "patient_id": "205cffe0-444b-41d9-bd77-05f572c433e9",
+    "first_name": "Emily",
+    "middle_initial": "U",
+    "last_name": "Waller",
+    "name": "Emily U Waller",
+    "sex": "female",
+    "birth_date": "2022-10-28",
+    "address": "870 Walker Greens, Lake Brandihaven, HI 68180",
+    "last_visit": "2025-05-16",
+    "conditions": [
+      "asthma"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.9,
+      "glucose": 140.4
+    }
+  },
+  {
+    "patient_id": "76f853c8-7e92-4572-b067-5e7b111921b1",
+    "first_name": "Angela",
+    "middle_initial": "D",
+    "last_name": "Williams",
+    "name": "Angela D Williams",
+    "sex": "female",
+    "birth_date": "1993-04-04",
+    "address": "1840 Kelly Loop, Jacquelinefort, MA 75751",
+    "last_visit": "2025-05-02",
+    "conditions": [
+      "asthma"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 12.6,
+      "glucose": 191.0
+    }
+  },
+  {
+    "patient_id": "7d94d995-436b-43c2-b655-9029caa719b2",
+    "first_name": "Richard",
+    "middle_initial": "R",
+    "last_name": "Rollins",
+    "name": "Richard R Rollins",
+    "sex": "male",
+    "birth_date": "1951-09-22",
+    "address": "34845 Peters Island Suite 465, Port Andrewside, NH 41887",
+    "last_visit": "2025-04-17",
+    "conditions": [
+      "arthritis",
+      "diabetes",
+      "COPD"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 13.9,
+      "glucose": 184.9
+    }
+  },
+  {
+    "patient_id": "31feefa8-f1b6-4286-bb4e-0326e0c4f5e9",
+    "first_name": "Sarah",
+    "middle_initial": "Q",
+    "last_name": "Ellison",
+    "name": "Sarah Q Ellison",
+    "sex": "female",
+    "birth_date": "1956-03-30",
+    "address": "26632 Ferrell Square Suite 480, Port Curtis, GU 59792",
+    "last_visit": "2025-07-31",
+    "conditions": [
+      "arthritis"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 14.6,
+      "glucose": 148.0
+    }
+  },
+  {
+    "patient_id": "e868941a-570a-4f72-8bb7-0268674bd9f1",
+    "first_name": "Melissa",
+    "middle_initial": "U",
+    "last_name": "Moon",
+    "name": "Melissa U Moon",
+    "sex": "female",
+    "birth_date": "1997-12-19",
+    "address": "251 Danielle Manors Suite 233, Scotttown, LA 09278",
+    "last_visit": "2025-04-26",
+    "conditions": [
+      "arthritis",
+      "hypertension"
+    ],
+    "medications": [
+      "sertraline",
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.6,
+      "glucose": 141.9
+    }
+  },
+  {
+    "patient_id": "cfa3a0dd-1a87-4fc0-88b8-d081dd1079ac",
+    "first_name": "Kim",
+    "middle_initial": "Z",
+    "last_name": "Jacobson",
+    "name": "Kim Z Jacobson",
+    "sex": "female",
+    "birth_date": "1939-11-19",
+    "address": "819 Susan Radial Suite 763, Lake Julie, SD 20109",
+    "last_visit": "2025-06-07",
+    "conditions": [
+      "hypertension"
+    ],
+    "medications": [
+      "sertraline",
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.0,
+      "glucose": 135.2
+    }
+  },
+  {
+    "patient_id": "1010520e-0ab3-442f-900d-993930333996",
+    "first_name": "John",
+    "middle_initial": "R",
+    "last_name": "Burton",
+    "name": "John R Burton",
+    "sex": "male",
+    "birth_date": "1996-03-01",
+    "address": "59598 Stacey Dam, West Ashley, MI 96445",
+    "last_visit": "2025-01-19",
+    "conditions": [
+      "depression",
+      "hypertension",
+      "arthritis"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.2,
+      "glucose": 163.5
+    }
+  },
+  {
+    "patient_id": "051ef180-ba69-4871-b6a7-64230dd439f4",
+    "first_name": "Donna",
+    "middle_initial": "Q",
+    "last_name": "Lambert",
+    "name": "Donna Q Lambert",
+    "sex": "female",
+    "birth_date": "2003-02-16",
+    "address": "6010 Hailey Turnpike Suite 442, Port Kathleen, PW 72832",
+    "last_visit": "2025-05-21",
+    "conditions": [
+      "hypertension",
+      "COPD",
+      "asthma"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.4,
+      "glucose": 99.3
+    }
+  },
+  {
+    "patient_id": "4dd58eac-dad7-4a7a-94b2-5c580fb00e4a",
+    "first_name": "Richard",
+    "middle_initial": "R",
+    "last_name": "Lopez",
+    "name": "Richard R Lopez",
+    "sex": "male",
+    "birth_date": "1952-08-19",
+    "address": "88560 Mccarthy Park Suite 529, Hannahmouth, UT 01424",
+    "last_visit": "2025-06-11",
+    "conditions": [
+      "hypertension",
+      "COPD",
+      "diabetes"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 16.2,
+      "glucose": 157.3
+    }
+  },
+  {
+    "patient_id": "1a9aa1b4-f8a6-4c7f-8a53-7539c2a45160",
+    "first_name": "Jodi",
+    "middle_initial": "H",
+    "last_name": "Camacho",
+    "name": "Jodi H Camacho",
+    "sex": "female",
+    "birth_date": "1995-06-04",
+    "address": "616 Rita Plaza, New Tyler, MN 08989",
+    "last_visit": "2025-03-09",
+    "conditions": [
+      "arthritis",
+      "depression",
+      "asthma"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 13.4,
+      "glucose": 110.3
+    }
+  },
+  {
+    "patient_id": "127d614a-e197-4816-9787-b70966b50326",
+    "first_name": "Monica",
+    "middle_initial": "A",
+    "last_name": "Peters",
+    "name": "Monica A Peters",
+    "sex": "female",
+    "birth_date": "1941-04-11",
+    "address": "1256 Hanson Motorway Suite 702, Donaldville, AK 33174",
+    "last_visit": "2025-07-05",
+    "conditions": [
+      "arthritis",
+      "depression",
+      "COPD"
+    ],
+    "medications": [
+      "atorvastatin"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.2,
+      "glucose": 83.7
+    }
+  },
+  {
+    "patient_id": "3e7556bf-3629-4ed9-915b-8848e314229b",
+    "first_name": "Elizabeth",
+    "middle_initial": "B",
+    "last_name": "Harris",
+    "name": "Elizabeth B Harris",
+    "sex": "female",
+    "birth_date": "2000-04-10",
+    "address": "191 Alvarez Roads Suite 609, Lake Allison, ID 81686",
+    "last_visit": "2025-07-08",
+    "conditions": [
+      "depression"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 13.3,
+      "glucose": 135.9
+    }
+  },
+  {
+    "patient_id": "2afc123b-2e31-4a8e-bec9-3dfacd5ac974",
+    "first_name": "Jerry",
+    "middle_initial": "I",
+    "last_name": "Stevens",
+    "name": "Jerry I Stevens",
+    "sex": "male",
+    "birth_date": "2014-03-18",
+    "address": "1057 Johnson Glen, Port Deniseport, VT 75321",
+    "last_visit": "2025-08-19",
+    "conditions": [
+      "depression"
+    ],
+    "medications": [
+      "metformin",
+      "sertraline"
+    ],
+    "lab_results": {
+      "hemoglobin": 11.9,
+      "glucose": 153.5
+    }
+  },
+  {
+    "patient_id": "664dae40-bae2-4e59-b590-d6ca87875d50",
+    "first_name": "Greg",
+    "middle_initial": "C",
+    "last_name": "Marshall",
+    "name": "Greg C Marshall",
+    "sex": "male",
+    "birth_date": "1981-11-20",
+    "address": "0184 Collier Forest Apt. 498, New Williamhaven, PR 39730",
+    "last_visit": "2025-04-08",
+    "conditions": [
+      "hypertension"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 12.7,
+      "glucose": 177.8
+    }
+  },
+  {
+    "patient_id": "f5769f4a-3bee-4d66-bdd0-2b84fc4529aa",
+    "first_name": "Terri",
+    "middle_initial": "N",
+    "last_name": "Diaz",
+    "name": "Terri N Diaz",
+    "sex": "female",
+    "birth_date": "1970-03-18",
+    "address": "22110 Wilson Harbors, North Kristinfort, ID 62581",
+    "last_visit": "2025-07-04",
+    "conditions": [
+      "COPD"
+    ],
+    "medications": [
+      "sertraline",
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.2,
+      "glucose": 82.1
+    }
+  },
+  {
+    "patient_id": "aca3b40b-fb8b-42b2-a257-0dc5b3cd58fd",
+    "first_name": "David",
+    "middle_initial": "V",
+    "last_name": "Shepard",
+    "name": "David V Shepard",
+    "sex": "male",
+    "birth_date": "2003-04-18",
+    "address": "8455 Lopez Locks Apt. 119, Hamiltonbury, NM 68573",
+    "last_visit": "2025-04-18",
+    "conditions": [
+      "COPD",
+      "hypertension",
+      "asthma"
+    ],
+    "medications": [
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 11.5,
+      "glucose": 193.8
+    }
+  },
+  {
+    "patient_id": "b797b5dc-81a5-4127-a55b-f15fdfa6e6d0",
+    "first_name": "Tiffany",
+    "middle_initial": "S",
+    "last_name": "Hodge",
+    "name": "Tiffany S Hodge",
+    "sex": "female",
+    "birth_date": "1935-02-11",
+    "address": "025 Burton Square Apt. 609, East Angela, SD 17906",
+    "last_visit": "2025-05-14",
+    "conditions": [
+      "COPD",
+      "diabetes"
+    ],
+    "medications": [
+      "sertraline",
+      "atorvastatin"
+    ],
+    "lab_results": {
+      "hemoglobin": 16.5,
+      "glucose": 123.4
+    }
+  },
+  {
+    "patient_id": "940240ef-9ae3-44ff-aba6-6e4b791b2db0",
+    "first_name": "Craig",
+    "middle_initial": "R",
+    "last_name": "Anderson",
+    "name": "Craig R Anderson",
+    "sex": "male",
+    "birth_date": "1973-08-14",
+    "address": "3883 Valerie Turnpike Suite 839, Lake Davidville, AZ 08148",
+    "last_visit": "2025-03-23",
+    "conditions": [
+      "arthritis",
+      "asthma"
+    ],
+    "medications": [
+      "metformin",
+      "atorvastatin"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.2,
+      "glucose": 130.0
+    }
+  },
+  {
+    "patient_id": "26b91ba6-2829-4ebc-9074-4cd7b4f11cdb",
+    "first_name": "Justin",
+    "middle_initial": "F",
+    "last_name": "Yoder",
+    "name": "Justin F Yoder",
+    "sex": "male",
+    "birth_date": "2021-12-15",
+    "address": "08124 Garcia Point Suite 199, New Cameron, AK 81581",
+    "last_visit": "2025-03-19",
+    "conditions": [
+      "COPD",
+      "asthma",
+      "hypertension"
+    ],
+    "medications": [
+      "albuterol",
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.4,
+      "glucose": 73.4
+    }
+  },
+  {
+    "patient_id": "1758de61-7e50-4b28-a797-af766d8316dc",
+    "first_name": "Alexis",
+    "middle_initial": "K",
+    "last_name": "Wagner",
+    "name": "Alexis K Wagner",
+    "sex": "female",
+    "birth_date": "2009-07-26",
+    "address": "9974 Timothy Shore Apt. 785, North Nicoleland, PW 84041",
+    "last_visit": "2025-08-22",
+    "conditions": [
+      "asthma",
+      "depression",
+      "COPD"
+    ],
+    "medications": [
+      "metformin",
+      "sertraline"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.9,
+      "glucose": 125.6
+    }
+  },
+  {
+    "patient_id": "d2e46557-abc9-4327-b2ca-b10b0207a734",
+    "first_name": "Anthony",
+    "middle_initial": "S",
+    "last_name": "Macdonald",
+    "name": "Anthony S Macdonald",
+    "sex": "male",
+    "birth_date": "1952-08-17",
+    "address": "PSC 4908, Box 9286, APO AE 09414",
+    "last_visit": "2025-03-08",
+    "conditions": [
+      "diabetes"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 16.8,
+      "glucose": 94.5
+    }
+  },
+  {
+    "patient_id": "7fd42925-7495-462e-b953-125918fc1d33",
+    "first_name": "Cynthia",
+    "middle_initial": "F",
+    "last_name": "Riley",
+    "name": "Cynthia F Riley",
+    "sex": "female",
+    "birth_date": "1987-08-16",
+    "address": "968 Solomon Course Suite 007, Richardport, ID 33462",
+    "last_visit": "2025-01-25",
+    "conditions": [
+      "hypertension",
+      "diabetes",
+      "COPD"
+    ],
+    "medications": [
+      "sertraline"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.2,
+      "glucose": 120.7
+    }
+  },
+  {
+    "patient_id": "46fc93ce-9842-4a10-97f7-6ad54ea50c02",
+    "first_name": "Lisa",
+    "middle_initial": "Q",
+    "last_name": "Bauer",
+    "name": "Lisa Q Bauer",
+    "sex": "female",
+    "birth_date": "1992-01-13",
+    "address": "52749 Darlene Views, Sydneystad, AL 45000",
+    "last_visit": "2025-02-26",
+    "conditions": [
+      "hypertension",
+      "diabetes"
+    ],
+    "medications": [
+      "lisinopril",
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.9,
+      "glucose": 110.0
+    }
+  },
+  {
+    "patient_id": "55cc4d9c-d02f-4077-81e2-2da2f9ed3f5f",
+    "first_name": "Jose",
+    "middle_initial": "W",
+    "last_name": "Gonzales",
+    "name": "Jose W Gonzales",
+    "sex": "male",
+    "birth_date": "2025-04-08",
+    "address": "USS Jackson, FPO AP 87492",
+    "last_visit": "2025-03-14",
+    "conditions": [
+      "arthritis",
+      "depression"
+    ],
+    "medications": [
+      "lisinopril",
+      "atorvastatin"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.8,
+      "glucose": 87.1
+    }
+  },
+  {
+    "patient_id": "87c9e17b-b306-4bda-a804-acbf734ac5d4",
+    "first_name": "Timothy",
+    "middle_initial": "X",
+    "last_name": "Davis",
+    "name": "Timothy X Davis",
+    "sex": "male",
+    "birth_date": "1948-08-23",
+    "address": "5152 Randall Mission Suite 105, Alisonbury, ME 30293",
+    "last_visit": "2025-03-30",
+    "conditions": [
+      "diabetes"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 13.9,
+      "glucose": 193.5
+    }
+  },
+  {
+    "patient_id": "f3ef5561-1cfc-46b7-b169-222586946375",
+    "first_name": "Kristen",
+    "middle_initial": "R",
+    "last_name": "Jenkins",
+    "name": "Kristen R Jenkins",
+    "sex": "female",
+    "birth_date": "2003-06-26",
+    "address": "1259 Bowen Crossroad, Carterberg, AZ 36930",
+    "last_visit": "2025-03-09",
+    "conditions": [
+      "asthma"
+    ],
+    "medications": [
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 16.4,
+      "glucose": 123.7
+    }
+  },
+  {
+    "patient_id": "a3157071-d785-476b-8618-802ae52b9a51",
+    "first_name": "Jasmine",
+    "middle_initial": "Y",
+    "last_name": "Wilson",
+    "name": "Jasmine Y Wilson",
+    "sex": "female",
+    "birth_date": "2003-10-11",
+    "address": "3142 Crystal Turnpike Apt. 445, South Jeffreyland, IL 10056",
+    "last_visit": "2025-06-25",
+    "conditions": [
+      "arthritis",
+      "asthma"
+    ],
+    "medications": [
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.2,
+      "glucose": 102.3
+    }
+  },
+  {
+    "patient_id": "63e59942-78bb-4d53-9069-4b644924be8d",
+    "first_name": "Cassie",
+    "middle_initial": "A",
+    "last_name": "Vega",
+    "name": "Cassie A Vega",
+    "sex": "female",
+    "birth_date": "2013-07-14",
+    "address": "52388 Kyle Mountains, Brianport, MT 01168",
+    "last_visit": "2025-08-20",
+    "conditions": [
+      "depression",
+      "arthritis",
+      "hypertension"
+    ],
+    "medications": [
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.5,
+      "glucose": 174.7
+    }
+  },
+  {
+    "patient_id": "9c4d0f1a-0680-49bf-abf4-c98676537b75",
+    "first_name": "Patricia",
+    "middle_initial": "I",
+    "last_name": "Grant",
+    "name": "Patricia I Grant",
+    "sex": "female",
+    "birth_date": "2003-09-05",
+    "address": "2150 Gilbert Junction Apt. 053, South Erin, HI 42106",
+    "last_visit": "2025-01-15",
+    "conditions": [
+      "depression",
+      "asthma"
+    ],
+    "medications": [
+      "sertraline",
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.5,
+      "glucose": 114.0
+    }
+  },
+  {
+    "patient_id": "8c1895c3-b9d9-412a-936d-ad54adfcd95b",
+    "first_name": "Randall",
+    "middle_initial": "G",
+    "last_name": "Brown",
+    "name": "Randall G Brown",
+    "sex": "male",
+    "birth_date": "2003-08-14",
+    "address": "29972 Daniels Pine Suite 697, South Codyshire, WA 51859",
+    "last_visit": "2025-03-13",
+    "conditions": [
+      "COPD",
+      "arthritis"
+    ],
+    "medications": [
+      "sertraline"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.3,
+      "glucose": 99.0
+    }
+  },
+  {
+    "patient_id": "11404648-6172-46d0-986c-5bbed80d55a0",
+    "first_name": "Roger",
+    "middle_initial": "Q",
+    "last_name": "Garcia",
+    "name": "Roger Q Garcia",
+    "sex": "male",
+    "birth_date": "1964-12-08",
+    "address": "927 Christopher Ford Apt. 345, Bishopville, TX 32146",
+    "last_visit": "2025-06-15",
+    "conditions": [
+      "COPD",
+      "asthma"
+    ],
+    "medications": [
+      "atorvastatin"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.2,
+      "glucose": 82.6
+    }
+  },
+  {
+    "patient_id": "b9430c34-1943-4fcb-a65d-e7f92ae6d6e5",
+    "first_name": "Terrance",
+    "middle_initial": "B",
+    "last_name": "Lopez",
+    "name": "Terrance B Lopez",
+    "sex": "male",
+    "birth_date": "1989-08-08",
+    "address": "6230 Perez Squares Apt. 160, Juanview, NY 37576",
+    "last_visit": "2025-01-14",
+    "conditions": [
+      "asthma",
+      "COPD",
+      "hypertension"
+    ],
+    "medications": [
+      "metformin",
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 11.9,
+      "glucose": 146.1
+    }
+  },
+  {
+    "patient_id": "d619bc9e-509a-4878-9dcc-688844640310",
+    "first_name": "Kyle",
+    "middle_initial": "I",
+    "last_name": "Drake",
+    "name": "Kyle I Drake",
+    "sex": "male",
+    "birth_date": "1996-11-06",
+    "address": "2688 Skinner Gardens, South Dustinburgh, PA 28654",
+    "last_visit": "2025-03-19",
+    "conditions": [
+      "hypertension",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.5,
+      "glucose": 154.1
+    },
+    "ssn": "383-25-1710",
+    "phone_number": "880-539-6879",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "2e20581b-16f9-42b9-b796-3730acc45c20",
+    "first_name": "Amy",
+    "middle_initial": "J",
+    "last_name": "Smith",
+    "name": "Amy J Smith",
+    "sex": "female",
+    "birth_date": "1975-11-02",
+    "address": "457 Love Springs Suite 197, Frankview, MP 93034",
+    "last_visit": "2025-04-25",
+    "conditions": [
+      "diabetes",
+      "arthritis",
+      "opioid addiction"
+    ],
+    "medications": [
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.5,
+      "glucose": 185.7
+    },
+    "ssn": "724-74-6425",
+    "phone_number": "4562036669",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "c7b9f4c0-1b57-4c37-b672-7977adb03cc7",
+    "first_name": "Daniel",
+    "middle_initial": "V",
+    "last_name": "Oneal",
+    "name": "Daniel V Oneal",
+    "sex": "male",
+    "birth_date": "1984-04-28",
+    "address": "578 Kayla Turnpike Apt. 250, Victorialand, AZ 02086",
+    "last_visit": "2025-06-14",
+    "conditions": [
+      "arthritis",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 11.9,
+      "glucose": 137.2
+    },
+    "ssn": "728-89-2152",
+    "phone_number": "695-246-2994x0799",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "2982e58f-1b99-4432-94d0-d0d87798b123",
+    "first_name": "Barry",
+    "middle_initial": "U",
+    "last_name": "Harris",
+    "name": "Barry U Harris",
+    "sex": "male",
+    "birth_date": "1983-01-10",
+    "address": "100 Alyssa Lakes Suite 490, Lake Scott, HI 23102",
+    "last_visit": "2025-05-21",
+    "conditions": [
+      "diabetes",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "lab_results": {
+      "hemoglobin": 16.7,
+      "glucose": 170.7
+    },
+    "ssn": "360-50-4826",
+    "phone_number": "001-260-345-2682x871",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "195e4532-0dac-4428-b35d-48b4cd7a7031",
+    "first_name": "Chelsea",
+    "middle_initial": "E",
+    "last_name": "Peterson",
+    "name": "Chelsea E Peterson",
+    "sex": "female",
+    "birth_date": "1966-03-08",
+    "address": "098 Karen Hollow, New Kathrynside, MI 50387",
+    "last_visit": "2025-01-28",
+    "conditions": [
+      "COPD",
+      "opioid addiction"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.8,
+      "glucose": 127.8
+    },
+    "ssn": "551-55-4394",
+    "phone_number": "(453)592-5648x40731",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "648dbcea-ab11-400a-a915-88e5d8d264ad",
+    "first_name": "Kenneth",
+    "middle_initial": "X",
+    "last_name": "Williams",
+    "name": "Kenneth X Williams",
+    "sex": "male",
+    "birth_date": "2023-05-11",
+    "address": "29007 Schultz Oval, Ianshire, IN 62628",
+    "last_visit": "2025-06-12",
+    "conditions": [
+      "arthritis",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.2,
+      "glucose": 171.5
+    },
+    "ssn": "744-34-0832",
+    "phone_number": "(505)595-1491x3821",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "0bcb6a1d-ccf7-4bc1-8f05-fd8cfede9d87",
+    "first_name": "Michael",
+    "middle_initial": "A",
+    "last_name": "Randall",
+    "name": "Michael A Randall",
+    "sex": "male",
+    "birth_date": "2021-01-09",
+    "address": "3772 Berger Village, Petersonview, CO 18305",
+    "last_visit": "2025-07-29",
+    "conditions": [
+      "asthma",
+      "COPD",
+      "pregnancy",
+      "HIV"
+    ],
+    "medications": [
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 16.7,
+      "glucose": 182.6
+    },
+    "ssn": "149-35-7373",
+    "phone_number": "404-381-3948x55186",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "0538d43a-e5bc-4294-8d8d-f269dde78035",
+    "first_name": "Heather",
+    "middle_initial": "N",
+    "last_name": "Johnson",
+    "name": "Heather N Johnson",
+    "sex": "female",
+    "birth_date": "2011-03-01",
+    "address": "4824 Jones Drive Apt. 589, Barberton, OR 39170",
+    "last_visit": "2025-06-29",
+    "conditions": [
+      "arthritis",
+      "diabetes",
+      "hypertension",
+      "opioid addiction"
+    ],
+    "ssn": "555-32-5718",
+    "phone_number": "001-839-864-3034x646",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "fb567770-60c2-4d9a-ad4d-a7d88f051128",
+    "first_name": "Teresa",
+    "middle_initial": "P",
+    "last_name": "Braun",
+    "name": "Teresa P Braun",
+    "sex": "female",
+    "birth_date": "1988-04-29",
+    "address": "3148 John Underpass, West Yvonne, ME 04276",
+    "last_visit": "2025-08-09",
+    "conditions": [
+      "hypertension",
+      "arthritis",
+      "opioid addiction"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.7,
+      "glucose": 82.0
+    },
+    "ssn": "295-75-3794",
+    "phone_number": "(294)261-0306x6521",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "bcdf9993-d00a-4a93-bbea-49f42d34973e",
+    "first_name": "William",
+    "middle_initial": "Q",
+    "last_name": "Campbell",
+    "name": "William Q Campbell",
+    "sex": "male",
+    "birth_date": "2021-03-29",
+    "address": "257 Brittney Branch Suite 113, North Patrick, NY 15955",
+    "last_visit": "2025-08-03",
+    "conditions": [
+      "hypertension",
+      "depression",
+      "diabetes",
+      "pregnancy",
+      "HIV"
+    ],
+    "medications": [
+      "albuterol",
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 11.9,
+      "glucose": 146.1
+    },
+    "ssn": "480-22-5173",
+    "phone_number": "7357448589",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "b2cd8b05-9d63-4dc8-bd52-9daf090bfbd6",
+    "first_name": "Kathleen",
+    "middle_initial": "L",
+    "last_name": "Pena",
+    "name": "Kathleen L Pena",
+    "sex": "female",
+    "birth_date": "1937-11-03",
+    "address": "7267 Brittany Ridges Suite 880, South Larry, IN 44754",
+    "last_visit": "2025-02-15",
+    "conditions": [
+      "diabetes",
+      "COPD",
+      "opioid addiction"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.3,
+      "glucose": 99.2
+    },
+    "ssn": "709-57-5731",
+    "phone_number": "(622)242-3388",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "43733f17-1a5c-475a-9ab5-d7df42e588e5",
+    "first_name": "Krystal",
+    "middle_initial": "T",
+    "last_name": "White",
+    "name": "Krystal T White",
+    "sex": "female",
+    "birth_date": "1988-11-27",
+    "address": "628 Marshall Rest Apt. 767, New Laurenside, UT 94026",
+    "last_visit": "2025-05-11",
+    "conditions": [
+      "arthritis",
+      "asthma",
+      "diabetes",
+      "HIV"
+    ],
+    "medications": [
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.0,
+      "glucose": 123.8
+    },
+    "ssn": "359-61-6788",
+    "phone_number": "687-349-6124x70093",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "155363a5-3123-4e78-8757-6aead3648e3f",
+    "first_name": "Karla",
+    "middle_initial": "X",
+    "last_name": "Williams",
+    "name": "Karla X Williams",
+    "sex": "female",
+    "birth_date": "1993-07-17",
+    "address": "Unit 7310 Box 2781, DPO AE 69183",
+    "last_visit": "2025-05-07",
+    "conditions": [
+      "asthma",
+      "COPD",
+      "hypertension",
+      "HIV"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.7,
+      "glucose": 84.1
+    },
+    "ssn": "164-52-0368",
+    "phone_number": "821.288.7797x75138",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "7b5f1207-2f39-40ef-839a-85a10826873b",
+    "first_name": "Perry",
+    "middle_initial": "W",
+    "last_name": "Lamb",
+    "name": "Perry W Lamb",
+    "sex": "male",
+    "birth_date": "1966-10-05",
+    "address": "225 Lynch Row Suite 258, Lake Michaelstad, SD 20315",
+    "last_visit": "2025-05-21",
+    "conditions": [
+      "arthritis",
+      "pregnancy",
+      "HIV"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.0,
+      "glucose": 155.6
+    },
+    "ssn": "248-71-7268",
+    "phone_number": "001-333-394-7517x013",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "15691c46-e9f8-457f-baa8-0cff34c84e48",
+    "first_name": "Alicia",
+    "middle_initial": "F",
+    "last_name": "Lewis",
+    "name": "Alicia F Lewis",
+    "sex": "female",
+    "birth_date": "2000-12-26",
+    "address": "USS Anderson, FPO AA 36775",
+    "last_visit": "2025-05-13",
+    "conditions": [
+      "hypertension",
+      "asthma",
+      "COPD",
+      "HIV"
+    ],
+    "medications": [
+      "lisinopril",
+      "atorvastatin"
+    ],
+    "ssn": "822-60-4556",
+    "phone_number": "559-812-8336x04962",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "564fab1f-c41c-44d1-9ad2-f58d115d0ebb",
+    "first_name": "Donald",
+    "middle_initial": "K",
+    "last_name": "Jackson",
+    "name": "Donald K Jackson",
+    "sex": "male",
+    "birth_date": "1935-10-20",
+    "address": "USNV Arnold, FPO AE 28617",
+    "last_visit": "2025-05-16",
+    "conditions": [
+      "hypertension",
+      "diabetes",
+      "pregnancy",
+      "HIV"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 14.3,
+      "glucose": 160.3
+    },
+    "ssn": "763-86-1270",
+    "phone_number": "8976433513",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "c2b5af21-713a-447d-9468-5acc62444639",
+    "first_name": "Victoria",
+    "middle_initial": "O",
+    "last_name": "Rogers",
+    "name": "Victoria O Rogers",
+    "sex": "female",
+    "birth_date": "1967-07-19",
+    "address": "PSC 6184, Box 8825, APO AE 45502",
+    "last_visit": "2025-03-06",
+    "conditions": [
+      "arthritis",
+      "opioid addiction"
+    ],
+    "ssn": "202-20-8729",
+    "phone_number": "001-446-591-4052",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "1c49dd8c-6915-4555-9d15-02301f3041b0",
+    "first_name": "Edward",
+    "middle_initial": "J",
+    "last_name": "Ortega",
+    "name": "Edward J Ortega",
+    "sex": "male",
+    "birth_date": "1975-11-19",
+    "address": "673 Carey Streets, East Louisbury, MN 92131",
+    "last_visit": "2025-04-17",
+    "conditions": [
+      "hypertension",
+      "diabetes",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.9,
+      "glucose": 73.9
+    },
+    "ssn": "183-02-8548",
+    "phone_number": "(872)475-9740",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "639aeb4c-1991-4494-a9d1-f9b2657fe36d",
+    "first_name": "Cynthia",
+    "middle_initial": "A",
+    "last_name": "Richardson",
+    "name": "Cynthia A Richardson",
+    "sex": "female",
+    "birth_date": "2016-12-21",
+    "address": "28523 Juan Meadows, Austinview, WA 96839",
+    "last_visit": "2025-08-25",
+    "conditions": [
+      "depression",
+      "COPD",
+      "hypertension",
+      "HIV"
+    ],
+    "medications": [
+      "lisinopril",
+      "sertraline"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.4,
+      "glucose": 168.9
+    },
+    "ssn": "382-35-8911",
+    "phone_number": "001-466-820-3337x00144",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "4dc5b952-0186-4d6f-af0e-6caffcfda14f",
+    "first_name": "Krista",
+    "middle_initial": "V",
+    "last_name": "Erickson",
+    "name": "Krista V Erickson",
+    "sex": "female",
+    "birth_date": "1974-05-27",
+    "address": "602 Edwin Loaf Suite 694, North Michaelville, UT 07217",
+    "last_visit": "2025-08-20",
+    "conditions": [
+      "COPD",
+      "hypertension",
+      "asthma",
+      "opioid addiction"
+    ],
+    "medications": [
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.1,
+      "glucose": 140.0
+    },
+    "ssn": "706-64-9779",
+    "phone_number": "9988967375",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "ddf8ccb3-c467-4b3a-806a-cdf7c7f69cb8",
+    "first_name": "Scott",
+    "middle_initial": "O",
+    "last_name": "Russell",
+    "name": "Scott O Russell",
+    "sex": "male",
+    "birth_date": "2014-10-28",
+    "address": "4696 Perez Stream Apt. 979, North Danview, NJ 09624",
+    "last_visit": "2025-02-19",
+    "conditions": [
+      "COPD",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "medications": [
+      "lisinopril",
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.6,
+      "glucose": 173.1
+    },
+    "ssn": "533-93-3246",
+    "phone_number": "645-571-3490",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "5b2d0d4e-0456-4a75-a376-c25d526afbd9",
+    "first_name": "Peter",
+    "middle_initial": "Q",
+    "last_name": "Bates",
+    "name": "Peter Q Bates",
+    "sex": "male",
+    "birth_date": "1939-06-14",
+    "address": "055 Pugh Lane Suite 628, Kurttown, OR 69796",
+    "last_visit": "2025-05-15",
+    "conditions": [
+      "diabetes",
+      "hypertension",
+      "pregnancy",
+      "HIV"
+    ],
+    "medications": [
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.5,
+      "glucose": 163.3
+    },
+    "ssn": "367-24-9627",
+    "phone_number": "(764)352-6565x8774",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "ad133f5e-8b5e-4e88-9505-431fe10ad6ef",
+    "first_name": "Justin",
+    "middle_initial": "M",
+    "last_name": "Bradley",
+    "name": "Justin M Bradley",
+    "sex": "male",
+    "birth_date": "1988-11-28",
+    "address": "4203 Sherri Groves Apt. 487, Clayland, WV 76938",
+    "last_visit": "2025-01-26",
+    "conditions": [
+      "diabetes",
+      "depression",
+      "asthma",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "medications": [
+      "atorvastatin",
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.5,
+      "glucose": 135.3
+    },
+    "ssn": "353-77-8772",
+    "phone_number": "+1-536-734-8588",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "5d4b2352-9086-4b12-9edf-c5abc20a69d3",
+    "first_name": "Donald",
+    "middle_initial": "K",
+    "last_name": "Long",
+    "name": "Donald K Long",
+    "sex": "male",
+    "birth_date": "2006-05-02",
+    "address": "USNS Lee, FPO AP 71747",
+    "last_visit": "2025-05-12",
+    "conditions": [
+      "hypertension",
+      "pregnancy",
+      "HIV"
+    ],
+    "ssn": "872-94-9494",
+    "phone_number": "+1-638-676-0524x6695",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "0756c63b-7e95-4775-b7cc-9a5071ccfd2c",
+    "first_name": "John",
+    "middle_initial": "T",
+    "last_name": "Alexander",
+    "name": "John T Alexander",
+    "sex": "male",
+    "birth_date": "1989-01-03",
+    "address": "0778 Reyes Trail, Clarkfurt, MT 23232",
+    "last_visit": "2025-04-01",
+    "conditions": [
+      "diabetes",
+      "asthma",
+      "depression",
+      "pregnancy",
+      "HIV"
+    ],
+    "ssn": "703-13-5339",
+    "phone_number": "619-792-0754x5371",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "b7bbc209-d251-4a0d-aa9b-8989973c5d7e",
+    "first_name": "Tara",
+    "middle_initial": "J",
+    "last_name": "Brown",
+    "name": "Tara J Brown",
+    "sex": "female",
+    "birth_date": "1978-09-18",
+    "address": "97618 Barbara Spurs Apt. 402, Smithton, WI 27639",
+    "last_visit": "2025-04-18",
+    "conditions": [
+      "COPD",
+      "diabetes",
+      "arthritis",
+      "opioid addiction"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 12.3,
+      "glucose": 176.7
+    },
+    "ssn": "089-18-8347",
+    "phone_number": "+1-805-752-6436x480",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "3bac483f-8082-4502-8bd5-99097221d33d",
+    "first_name": "Michael",
+    "middle_initial": "R",
+    "last_name": "Bryan",
+    "name": "Michael R Bryan",
+    "sex": "male",
+    "birth_date": "1976-12-22",
+    "address": "87210 Johnson Meadows, New Douglasborough, WV 10186",
+    "last_visit": "2025-04-07",
+    "conditions": [
+      "asthma",
+      "depression",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "medications": [
+      "sertraline"
+    ],
+    "ssn": "600-62-0334",
+    "phone_number": "(647)849-9965",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "65264f3c-d2f3-4604-8548-df7a30ae3c84",
+    "first_name": "Glenn",
+    "middle_initial": "W",
+    "last_name": "Ramirez",
+    "name": "Glenn W Ramirez",
+    "sex": "male",
+    "birth_date": "1991-04-28",
+    "address": "79338 Tracy Roads, Newmanton, NM 72038",
+    "last_visit": "2025-05-04",
+    "conditions": [
+      "asthma",
+      "depression",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "ssn": "844-30-5787",
+    "phone_number": "987.542.6742x207",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "b416b257-5225-4e14-9521-66d94ff3f05a",
+    "first_name": "David",
+    "middle_initial": "Y",
+    "last_name": "Martin",
+    "name": "David Y Martin",
+    "sex": "male",
+    "birth_date": "1989-05-12",
+    "address": "69884 Stewart Pines, Christianton, KS 93607",
+    "last_visit": "2025-02-26",
+    "conditions": [
+      "asthma",
+      "arthritis",
+      "pregnancy",
+      "HIV"
+    ],
+    "ssn": "056-51-6824",
+    "phone_number": "+1-615-458-8049x143",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "2991b282-ce82-42f3-b985-2d2a58534557",
+    "first_name": "Shane",
+    "middle_initial": "N",
+    "last_name": "Knight",
+    "name": "Shane N Knight",
+    "sex": "male",
+    "birth_date": "1984-04-12",
+    "address": "USNV Griffith, FPO AE 65416",
+    "last_visit": "2025-03-15",
+    "conditions": [
+      "asthma",
+      "pregnancy",
+      "HIV"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 13.3,
+      "glucose": 102.3
+    },
+    "ssn": "783-75-3313",
+    "phone_number": "+1-642-295-0663x720",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "82e70b68-50e5-4521-9c5b-dfc49bedd8a0",
+    "first_name": "Jennifer",
+    "middle_initial": "K",
+    "last_name": "Chen",
+    "name": "Jennifer K Chen",
+    "sex": "female",
+    "birth_date": "1980-02-29",
+    "address": "1594 Eric Ridge Apt. 422, Nicholasmouth, NE 35595",
+    "last_visit": "2025-04-23",
+    "conditions": [
+      "depression",
+      "asthma",
+      "hypertension",
+      "opioid addiction"
+    ],
+    "ssn": "834-66-9597",
+    "phone_number": "(704)782-0952x3799",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "68670fbd-505e-4156-863a-05d9149213e2",
+    "first_name": "Chad",
+    "middle_initial": "S",
+    "last_name": "Parker",
+    "name": "Chad S Parker",
+    "sex": "male",
+    "birth_date": "1951-09-07",
+    "address": "039 Matthew Brooks, Port David, NY 28511",
+    "last_visit": "2025-05-14",
+    "conditions": [
+      "arthritis",
+      "depression",
+      "asthma",
+      "pregnancy",
+      "HIV"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.0,
+      "glucose": 86.4
+    },
+    "ssn": "821-55-4337",
+    "phone_number": "364-398-3072x2503",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "6236b92b-936f-4d89-8aab-221315466fc6",
+    "first_name": "Sherry",
+    "middle_initial": "Q",
+    "last_name": "Hill",
+    "name": "Sherry Q Hill",
+    "sex": "female",
+    "birth_date": "1963-09-04",
+    "address": "63516 Erickson Shore, East Jeremyville, NJ 90539",
+    "last_visit": "2025-01-29",
+    "conditions": [
+      "hypertension",
+      "HIV"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 16.3,
+      "glucose": 86.7
+    },
+    "ssn": "724-81-7718",
+    "phone_number": "508-526-9226x41192",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "415eec8d-b9cf-469f-874a-c0d4b76bb075",
+    "first_name": "Susan",
+    "middle_initial": "G",
+    "last_name": "Taylor",
+    "name": "Susan G Taylor",
+    "sex": "female",
+    "birth_date": "1945-12-11",
+    "address": "USCGC Martin, FPO AA 60532",
+    "last_visit": "2025-08-11",
+    "conditions": [
+      "arthritis",
+      "depression",
+      "asthma",
+      "opioid addiction"
+    ],
+    "medications": [],
+    "ssn": "566-37-7981",
+    "phone_number": "882-919-0520",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "e9d07d2c-0d1a-4e10-9811-be2164f23d39",
+    "first_name": "Dawn",
+    "middle_initial": "T",
+    "last_name": "Carr",
+    "name": "Dawn T Carr",
+    "sex": "female",
+    "birth_date": "2021-06-22",
+    "address": "5855 Shannon Fort Apt. 659, New Mark, TX 75841",
+    "last_visit": "2025-08-11",
+    "conditions": [
+      "COPD",
+      "asthma",
+      "opioid addiction"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 11.8,
+      "glucose": 177.7
+    },
+    "ssn": "801-42-5616",
+    "phone_number": "478.819.0830x223",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "8e4d03fd-b193-47dc-ba94-41f3525beb91",
+    "first_name": "Courtney",
+    "middle_initial": "S",
+    "last_name": "Rogers",
+    "name": "Courtney S Rogers",
+    "sex": "female",
+    "birth_date": "2021-04-26",
+    "address": "437 Linda Rapids Suite 315, Laurenbury, NJ 93673",
+    "last_visit": "2025-01-26",
+    "conditions": [
+      "COPD",
+      "hypertension",
+      "depression",
+      "opioid addiction"
+    ],
+    "ssn": "012-92-2971",
+    "phone_number": "563.504.5260x3671",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "4ab98ee5-6c90-4bcf-9146-43fad7ce46ef",
+    "first_name": "Troy",
+    "middle_initial": "N",
+    "last_name": "Lawrence",
+    "name": "Troy N Lawrence",
+    "sex": "male",
+    "birth_date": "1979-06-21",
+    "address": "18582 Robert Vista, Adamsville, NY 03386",
+    "last_visit": "2025-05-12",
+    "conditions": [
+      "hypertension",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.2,
+      "glucose": 131.3
+    },
+    "ssn": "283-32-0281",
+    "phone_number": "547-970-3395",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "04216856-dbf6-42e0-83c3-074761fd19c2",
+    "first_name": "Jennifer",
+    "middle_initial": "O",
+    "last_name": "Perez",
+    "name": "Jennifer O Perez",
+    "sex": "female",
+    "birth_date": "1989-07-07",
+    "address": "54070 Robert Village, Hollyport, MS 32014",
+    "last_visit": "2025-07-18",
+    "conditions": [
+      "arthritis",
+      "HIV"
+    ],
+    "medications": [
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 17.1,
+      "glucose": 114.1
+    },
+    "ssn": "139-61-0235",
+    "phone_number": "+1-276-798-4025x46652",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "5d5c9fbe-7a97-432e-a443-72f8ef0c766a",
+    "first_name": "James",
+    "middle_initial": "O",
+    "last_name": "Holland",
+    "name": "James O Holland",
+    "sex": "male",
+    "birth_date": "2012-03-26",
+    "address": "342 Wilkins Prairie Suite 553, Chaseborough, PR 03154",
+    "last_visit": "2025-06-26",
+    "conditions": [
+      "COPD",
+      "hypertension",
+      "asthma",
+      "pregnancy",
+      "HIV"
+    ],
+    "medications": [
+      "metformin",
+      "albuterol"
+    ],
+    "ssn": "224-42-6741",
+    "phone_number": "+1-748-584-8940x2866",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "9ef1c7a1-3456-4412-b273-e6251754b0f7",
+    "first_name": "Jessica",
+    "middle_initial": "Z",
+    "last_name": "Robertson",
+    "name": "Jessica Z Robertson",
+    "sex": "female",
+    "birth_date": "2002-11-13",
+    "address": "616 Smith Walk Suite 415, Johnhaven, VA 73578",
+    "last_visit": "2025-06-06",
+    "conditions": [
+      "arthritis",
+      "depression",
+      "hypertension",
+      "HIV"
+    ],
+    "medications": [
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.7,
+      "glucose": 163.7
+    },
+    "ssn": "320-74-9377",
+    "phone_number": "001-343-641-9555x9080",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "05359ec6-045a-4be0-ad38-4a7e564f05f5",
+    "first_name": "Leslie",
+    "middle_initial": "B",
+    "last_name": "Smith",
+    "name": "Leslie B Smith",
+    "sex": "female",
+    "birth_date": "1965-12-30",
+    "address": "29735 Kevin Overpass, West Michaelville, WA 37450",
+    "last_visit": "2025-01-07",
+    "conditions": [
+      "depression",
+      "asthma",
+      "diabetes",
+      "opioid addiction"
+    ],
+    "medications": [
+      "sertraline",
+      "lisinopril"
+    ],
+    "ssn": "753-97-5300",
+    "phone_number": "8557784652",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "252c2261-4c2a-4f3e-b8b2-6c0bf1c8b586",
+    "first_name": "Kimberly",
+    "middle_initial": "T",
+    "last_name": "Parker",
+    "name": "Kimberly T Parker",
+    "sex": "female",
+    "birth_date": "1938-07-22",
+    "address": "4804 Tricia Fort, Jamesfurt, FL 06028",
+    "last_visit": "2025-03-21",
+    "conditions": [
+      "asthma",
+      "arthritis",
+      "depression",
+      "HIV"
+    ],
+    "ssn": "742-94-0492",
+    "phone_number": "001-248-977-2561",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "c35e7546-dca0-4db2-b2cf-3c42165f2c31",
+    "first_name": "Christian",
+    "middle_initial": "F",
+    "last_name": "White",
+    "name": "Christian F White",
+    "sex": "male",
+    "birth_date": "1993-10-07",
+    "address": "52758 Lori Harbor Suite 134, East Christineport, PA 02002",
+    "last_visit": "2025-01-11",
+    "conditions": [
+      "COPD",
+      "arthritis",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "medications": [
+      "lisinopril",
+      "sertraline"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.3,
+      "glucose": 187.3
+    },
+    "ssn": "395-54-1326",
+    "phone_number": "+1-821-806-0826x581",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "c1e39bae-a2dd-416d-8988-d47f28186223",
+    "first_name": "Mary",
+    "middle_initial": "X",
+    "last_name": "Nielsen",
+    "name": "Mary X Nielsen",
+    "sex": "female",
+    "birth_date": "1979-10-21",
+    "address": "357 King Estates, Mullinsport, VI 89110",
+    "last_visit": "2025-07-07",
+    "conditions": [
+      "hypertension",
+      "diabetes",
+      "COPD",
+      "opioid addiction"
+    ],
+    "lab_results": {
+      "hemoglobin": 11.5,
+      "glucose": 147.4
+    },
+    "ssn": "260-61-8804",
+    "phone_number": "511.980.6107",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "8749bb37-e3b5-4141-b792-b344bd00e5fe",
+    "first_name": "Mark",
+    "middle_initial": "I",
+    "last_name": "Juarez",
+    "name": "Mark I Juarez",
+    "sex": "male",
+    "birth_date": "2024-03-08",
+    "address": "982 Holland Pass Suite 885, South Patriciashire, PW 13379",
+    "last_visit": "2025-06-03",
+    "conditions": [
+      "arthritis",
+      "asthma",
+      "depression",
+      "pregnancy",
+      "HIV"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 13.1,
+      "glucose": 77.6
+    },
+    "ssn": "135-30-2550",
+    "phone_number": "315-779-5610x6228",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "b2a62dd7-fbc3-44dc-9c0f-093270666227",
+    "first_name": "Marie",
+    "middle_initial": "N",
+    "last_name": "Fitzgerald",
+    "name": "Marie N Fitzgerald",
+    "sex": "female",
+    "birth_date": "1981-12-09",
+    "address": "Unit 9730 Box 4189, DPO AE 57679",
+    "last_visit": "2025-05-25",
+    "conditions": [
+      "COPD",
+      "diabetes",
+      "hypertension",
+      "opioid addiction"
+    ],
+    "medications": [
+      "lisinopril",
+      "atorvastatin"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.3,
+      "glucose": 127.3
+    },
+    "ssn": "268-47-3592",
+    "phone_number": "558-996-9025",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "bdda4db1-4ef3-4641-aaf4-3eef618e5887",
+    "first_name": "Daniel",
+    "middle_initial": "H",
+    "last_name": "Coleman",
+    "name": "Daniel H Coleman",
+    "sex": "male",
+    "birth_date": "1953-02-04",
+    "address": "1873 Dana Island, Nashview, MD 23550",
+    "last_visit": "2025-02-15",
+    "conditions": [
+      "arthritis",
+      "hypertension",
+      "COPD",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "medications": [
+      "albuterol",
+      "atorvastatin"
+    ],
+    "ssn": "076-19-5367",
+    "phone_number": "(814)843-5328x9521",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "4dc3bb39-d1aa-44dd-8c2d-2a74d73d3c47",
+    "first_name": "Brady",
+    "middle_initial": "I",
+    "last_name": "Mullins",
+    "name": "Brady I Mullins",
+    "sex": "male",
+    "birth_date": "1980-02-09",
+    "address": "728 Meza Rue, Ryanchester, MA 48484",
+    "last_visit": "2025-04-07",
+    "conditions": [
+      "asthma",
+      "hypertension",
+      "diabetes",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "medications": [
+      "atorvastatin",
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 11.5,
+      "glucose": 195.9
+    },
+    "ssn": "850-25-8454",
+    "phone_number": "3824071854",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "c4dcd3c6-c898-4692-8e3e-906e9a70425b",
+    "first_name": "Bianca",
+    "middle_initial": "A",
+    "last_name": "Cook",
+    "name": "Bianca A Cook",
+    "sex": "female",
+    "birth_date": "1935-10-17",
+    "address": "151 Boyd Dale Suite 372, Donnaborough, ID 55453",
+    "last_visit": "2025-03-23",
+    "conditions": [
+      "asthma",
+      "diabetes",
+      "HIV"
+    ],
+    "ssn": "474-73-5780",
+    "phone_number": "(939)379-5558x58077",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "12d7bb33-ff82-4dcb-bd4e-d04a79a40082",
+    "first_name": "Catherine",
+    "middle_initial": "D",
+    "last_name": "Tucker",
+    "name": "Catherine D Tucker",
+    "sex": "female",
+    "birth_date": "1942-01-12",
+    "address": "7653 Gary Hill Apt. 999, Danaport, NJ 02114",
+    "last_visit": "2025-04-21",
+    "conditions": [
+      "arthritis",
+      "COPD",
+      "diabetes",
+      "HIV"
+    ],
+    "medications": [
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 11.4,
+      "glucose": 140.7
+    },
+    "ssn": "658-35-9372",
+    "phone_number": "001-371-951-4291x210",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "ace2b5b1-9eb5-428e-a8b8-a25a4c2c7307",
+    "first_name": "Raymond",
+    "middle_initial": "W",
+    "last_name": "Mcdaniel",
+    "name": "Raymond W Mcdaniel",
+    "sex": "male",
+    "birth_date": "1967-09-24",
+    "address": "709 Richard Rue, Johnborough, GA 93599",
+    "last_visit": "2025-02-26",
+    "conditions": [
+      "COPD",
+      "asthma",
+      "hypertension",
+      "pregnancy",
+      "HIV"
+    ],
+    "medications": [
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 11.3,
+      "glucose": 143.7
+    },
+    "ssn": "791-20-9623",
+    "phone_number": "5906192081",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "5c5b30e4-e1f0-4a71-b121-29f2a569827c",
+    "first_name": "Tonya",
+    "middle_initial": "X",
+    "last_name": "Macdonald",
+    "name": "Tonya X Macdonald",
+    "sex": "female",
+    "birth_date": "1943-05-25",
+    "address": "131 Higgins Mountain Apt. 605, Stuartbury, MA 86433",
+    "last_visit": "2025-07-30",
+    "conditions": [
+      "asthma",
+      "hypertension",
+      "depression",
+      "HIV"
+    ],
+    "medications": [
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.4,
+      "glucose": 95.0
+    },
+    "ssn": "562-09-8752",
+    "phone_number": "667-474-2182x54936",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "f231409d-5ac6-4f3a-aeaf-6e046cce429b",
+    "first_name": "Kelly",
+    "middle_initial": "W",
+    "last_name": "Brown",
+    "name": "Kelly W Brown",
+    "sex": "female",
+    "birth_date": "2004-03-12",
+    "address": "7080 Micheal Summit Apt. 666, Ryanfurt, AL 32664",
+    "last_visit": "2025-01-21",
+    "conditions": [
+      "depression",
+      "HIV"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.6,
+      "glucose": 118.2
+    },
+    "ssn": "857-76-5072",
+    "phone_number": "953.373.5841x564",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "c8eee729-0c25-45ad-930c-c2c1eac5604b",
+    "first_name": "Natalie",
+    "middle_initial": "L",
+    "last_name": "Owens",
+    "name": "Natalie L Owens",
+    "sex": "female",
+    "birth_date": "2021-09-25",
+    "address": "466 Cesar Views Apt. 512, Danielhaven, FL 87310",
+    "last_visit": "2025-06-16",
+    "conditions": [
+      "diabetes",
+      "arthritis",
+      "depression",
+      "HIV"
+    ],
+    "medications": [
+      "metformin",
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.7,
+      "glucose": 100.8
+    },
+    "ssn": "559-32-4511",
+    "phone_number": "372.895.3306",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "f6a70d11-87f4-4981-ad16-865ef74876f5",
+    "first_name": "Duane",
+    "middle_initial": "N",
+    "last_name": "Mccall",
+    "name": "Duane N Mccall",
+    "sex": "male",
+    "birth_date": "1955-01-31",
+    "address": "14096 Leslie Prairie, North Michelle, NE 84637",
+    "last_visit": "2025-04-29",
+    "conditions": [
+      "depression",
+      "asthma",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "ssn": "123-59-9589",
+    "phone_number": "(631)427-9058x855",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "13a84a05-342b-45ec-add8-119070791bdf",
+    "first_name": "Elizabeth",
+    "middle_initial": "V",
+    "last_name": "Goodwin",
+    "name": "Elizabeth V Goodwin",
+    "sex": "female",
+    "birth_date": "1964-08-02",
+    "address": "828 Michael Island Suite 203, East Staceyview, FL 89679",
+    "last_visit": "2025-05-12",
+    "conditions": [
+      "COPD",
+      "hypertension",
+      "opioid addiction"
+    ],
+    "ssn": "432-60-1409",
+    "phone_number": "+1-376-888-6331x3851",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "117d0258-a216-45ed-b31c-59906caf50a7",
+    "first_name": "Matthew",
+    "middle_initial": "T",
+    "last_name": "Johnson",
+    "name": "Matthew T Johnson",
+    "sex": "male",
+    "birth_date": "2005-04-12",
+    "address": "22688 Adkins Rest Apt. 303, New Josephview, SD 23034",
+    "last_visit": "2025-04-18",
+    "conditions": [
+      "asthma",
+      "pregnancy",
+      "HIV"
+    ],
+    "medications": [],
+    "ssn": "119-38-6094",
+    "phone_number": "563.907.3391",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "3ef70148-f444-4bf2-868b-24be2877f3ad",
+    "first_name": "Yolanda",
+    "middle_initial": "Z",
+    "last_name": "Small",
+    "name": "Yolanda Z Small",
+    "sex": "female",
+    "birth_date": "1959-11-01",
+    "address": "USS Sanders, FPO AP 71242",
+    "last_visit": "2025-04-03",
+    "conditions": [
+      "diabetes",
+      "opioid addiction"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.6,
+      "glucose": 134.5
+    },
+    "ssn": "074-27-2414",
+    "phone_number": "330.529.2277x97357",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "dfb27223-a007-4956-8e17-0606d5aea634",
+    "first_name": "William",
+    "middle_initial": "H",
+    "last_name": "Curtis",
+    "name": "William H Curtis",
+    "sex": "male",
+    "birth_date": "1964-07-06",
+    "address": "8934 Brittany Dale, Stephenfurt, UT 73648",
+    "last_visit": "2025-04-18",
+    "conditions": [
+      "depression",
+      "asthma",
+      "pregnancy",
+      "HIV"
+    ],
+    "ssn": "075-90-3168",
+    "phone_number": "935.382.9422x866",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "48601de7-f05c-4017-a9f2-161952bd9598",
+    "first_name": "Angela",
+    "middle_initial": "A",
+    "last_name": "May",
+    "name": "Angela A May",
+    "sex": "female",
+    "birth_date": "1954-01-20",
+    "address": "73496 Matthew Place Suite 918, Port John, MP 79813",
+    "last_visit": "2025-01-08",
+    "conditions": [
+      "COPD",
+      "opioid addiction"
+    ],
+    "medications": [
+      "metformin",
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.6,
+      "glucose": 85.7
+    },
+    "ssn": "812-40-3044",
+    "phone_number": "001-302-445-6354x98910",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "d46b58b2-baa1-4c7c-aafb-a983c35e3af6",
+    "first_name": "Steve",
+    "middle_initial": "V",
+    "last_name": "Ortiz",
+    "name": "Steve V Ortiz",
+    "sex": "male",
+    "birth_date": "1982-05-23",
+    "address": "54747 Li Rapids Suite 884, North Sharonbury, AR 33410",
+    "last_visit": "2025-03-23",
+    "conditions": [
+      "asthma",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.9,
+      "glucose": 70.5
+    },
+    "ssn": "683-11-7984",
+    "phone_number": "+1-831-622-3832x626",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "484f2c75-cf77-4f72-825b-2fa459a4da6e",
+    "first_name": "Melissa",
+    "middle_initial": "S",
+    "last_name": "King",
+    "name": "Melissa S King",
+    "sex": "female",
+    "birth_date": "1964-12-22",
+    "address": "61763 Kevin Field Suite 038, South Jessica, ND 89237",
+    "last_visit": "2025-01-19",
+    "conditions": [
+      "diabetes",
+      "depression",
+      "opioid addiction"
+    ],
+    "medications": [
+      "metformin",
+      "lisinopril"
+    ],
+    "ssn": "595-62-5521",
+    "phone_number": "803.232.2843x37318",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "ef092643-ca1e-4428-903a-fdd4271ad9cd",
+    "first_name": "Angela",
+    "middle_initial": "P",
+    "last_name": "Harris",
+    "name": "Angela P Harris",
+    "sex": "female",
+    "birth_date": "1945-11-02",
+    "address": "027 Trevino Groves, Richardsshire, MP 87465",
+    "last_visit": "2025-07-28",
+    "conditions": [
+      "diabetes",
+      "arthritis",
+      "COPD",
+      "HIV"
+    ],
+    "ssn": "154-12-0591",
+    "phone_number": "963.591.4268",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "0eb0ec21-52d8-4760-a1e9-45669368cc9a",
+    "first_name": "Jade",
+    "middle_initial": "E",
+    "last_name": "Reed",
+    "name": "Jade E Reed",
+    "sex": "female",
+    "birth_date": "1979-09-02",
+    "address": "33301 Anderson Plaza Suite 669, Jamesstad, MP 75767",
+    "last_visit": "2025-08-04",
+    "conditions": [
+      "diabetes",
+      "hypertension",
+      "opioid addiction"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 12.2,
+      "glucose": 134.7
+    },
+    "ssn": "579-54-7560",
+    "phone_number": "509-926-8144",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "399b57c0-73c1-4b4e-9ee3-66c98cf1bd1e",
+    "first_name": "Jacob",
+    "middle_initial": "R",
+    "last_name": "Marshall",
+    "name": "Jacob R Marshall",
+    "sex": "male",
+    "birth_date": "1956-05-25",
+    "address": "9003 Scott Canyon, North Adam, FM 79810",
+    "last_visit": "2025-03-03",
+    "conditions": [
+      "depression",
+      "hypertension",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "ssn": "341-15-6493",
+    "phone_number": "001-897-824-0033x44263",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "f1fcc3c0-4f2e-4969-af76-6e2fa46922b3",
+    "first_name": "Randy",
+    "middle_initial": "Q",
+    "last_name": "Clark",
+    "name": "Randy Q Clark",
+    "sex": "male",
+    "birth_date": "2011-05-31",
+    "address": "20953 Brown Mission Apt. 192, South Maria, IN 83592",
+    "last_visit": "2025-05-13",
+    "conditions": [
+      "depression",
+      "hypertension",
+      "pregnancy",
+      "HIV"
+    ],
+    "medications": [
+      "albuterol",
+      "lisinopril"
+    ],
+    "ssn": "574-45-2190",
+    "phone_number": "(359)368-2045x009",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "76da60b8-30ec-4c35-93d9-27ea0d4f0374",
+    "first_name": "Christine",
+    "middle_initial": "L",
+    "last_name": "Stevenson",
+    "name": "Christine L Stevenson",
+    "sex": "female",
+    "birth_date": "1989-07-29",
+    "address": "4845 Patrick Garden, South Juliashire, VA 50527",
+    "last_visit": "2025-02-16",
+    "conditions": [
+      "asthma",
+      "opioid addiction"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 13.1,
+      "glucose": 110.4
+    },
+    "ssn": "482-65-2995",
+    "phone_number": "790-217-5797x938",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "f660a33b-66e4-4d61-8c0e-92061e8f0621",
+    "first_name": "Kimberly",
+    "middle_initial": "I",
+    "last_name": "Guerrero",
+    "name": "Kimberly I Guerrero",
+    "sex": "female",
+    "birth_date": "1987-06-21",
+    "address": "408 Salazar Burgs, North Patrickland, NE 05530",
+    "last_visit": "2025-06-23",
+    "conditions": [
+      "hypertension",
+      "COPD",
+      "opioid addiction"
+    ],
+    "medications": [
+      "lisinopril",
+      "sertraline"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.8,
+      "glucose": 194.9
+    },
+    "ssn": "105-88-4882",
+    "phone_number": "+1-832-499-6548x205",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "8f5bd1ef-913e-463b-af0e-0ef9c779c2bf",
+    "first_name": "Melissa",
+    "middle_initial": "S",
+    "last_name": "Brown",
+    "name": "Melissa S Brown",
+    "sex": "female",
+    "birth_date": "1966-08-01",
+    "address": "2791 Adam Forge Suite 043, Brucehaven, LA 12007",
+    "last_visit": "2025-04-28",
+    "conditions": [
+      "arthritis",
+      "diabetes",
+      "opioid addiction"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.7,
+      "glucose": 105.5
+    },
+    "ssn": "356-28-4194",
+    "phone_number": "783-301-0722x834",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "ac65725b-8ca0-4b40-bf96-236c4f24a4c0",
+    "first_name": "Kenneth",
+    "middle_initial": "X",
+    "last_name": "Horn",
+    "name": "Kenneth X Horn",
+    "sex": "male",
+    "birth_date": "1984-12-12",
+    "address": "1803 Dickerson Springs Suite 968, New Bridget, WY 16943",
+    "last_visit": "2025-04-07",
+    "conditions": [
+      "arthritis",
+      "COPD",
+      "hypertension",
+      "pregnancy",
+      "HIV"
+    ],
+    "medications": [],
+    "ssn": "633-72-8092",
+    "phone_number": "001-205-269-9923",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "3230f108-f9af-4489-a743-9b6b3ce63726",
+    "first_name": "Melissa",
+    "middle_initial": "Z",
+    "last_name": "Mendez",
+    "name": "Melissa Z Mendez",
+    "sex": "female",
+    "birth_date": "1955-10-13",
+    "address": "PSC 8848, Box 5404, APO AP 00819",
+    "last_visit": "2025-02-01",
+    "conditions": [
+      "arthritis",
+      "depression",
+      "diabetes",
+      "opioid addiction"
+    ],
+    "lab_results": {
+      "hemoglobin": 16.5,
+      "glucose": 78.6
+    },
+    "ssn": "562-09-2309",
+    "phone_number": "3482427601",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "d7894dc9-e83c-414c-8b58-c210167c44d6",
+    "first_name": "Edward",
+    "middle_initial": "E",
+    "last_name": "Robinson",
+    "name": "Edward E Robinson",
+    "sex": "male",
+    "birth_date": "1940-08-16",
+    "address": "232 Christopher Brooks, West Hailey, CA 73705",
+    "last_visit": "2025-02-19",
+    "conditions": [
+      "diabetes",
+      "hypertension",
+      "pregnancy",
+      "HIV"
+    ],
+    "ssn": "029-37-3225",
+    "phone_number": "(316)515-2813x558",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "279e8d99-4e90-403e-b1ba-e08e49460114",
+    "first_name": "Jessica",
+    "middle_initial": "S",
+    "last_name": "Davidson",
+    "name": "Jessica S Davidson",
+    "sex": "female",
+    "birth_date": "1983-01-18",
+    "address": "547 Joshua Fort Apt. 301, Andersonberg, OR 15014",
+    "last_visit": "2025-05-08",
+    "conditions": [
+      "hypertension",
+      "depression",
+      "opioid addiction"
+    ],
+    "medications": [
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.6,
+      "glucose": 167.2
+    },
+    "ssn": "776-69-0401",
+    "phone_number": "001-502-992-4854x94978",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "b6ea393a-302c-498f-85fe-68367200a594",
+    "first_name": "Gregory",
+    "middle_initial": "X",
+    "last_name": "Dixon",
+    "name": "Gregory X Dixon",
+    "sex": "male",
+    "birth_date": "1950-02-10",
+    "address": "124 Hart Greens Apt. 654, Lake Tina, SC 95289",
+    "last_visit": "2025-05-02",
+    "conditions": [
+      "COPD",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "medications": [],
+    "lab_results": {
+      "hemoglobin": 14.8,
+      "glucose": 143.6
+    },
+    "ssn": "584-78-8239",
+    "phone_number": "001-599-219-5688x1596",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "6964c640-4196-451c-b0e3-22118e29f826",
+    "first_name": "Charles",
+    "middle_initial": "P",
+    "last_name": "Garcia",
+    "name": "Charles P Garcia",
+    "sex": "male",
+    "birth_date": "1967-10-19",
+    "address": "8969 Albert Creek Apt. 247, East Jacqueline, MD 73454",
+    "last_visit": "2025-02-03",
+    "conditions": [
+      "COPD",
+      "hypertension",
+      "pregnancy",
+      "HIV"
+    ],
+    "medications": [],
+    "ssn": "614-09-2534",
+    "phone_number": "560.831.7629",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "96ba7922-e521-4bbc-bdc7-48af08f00748",
+    "first_name": "Tamara",
+    "middle_initial": "K",
+    "last_name": "Barrera",
+    "name": "Tamara K Barrera",
+    "sex": "female",
+    "birth_date": "2024-09-27",
+    "address": "2955 Howard Harbor, West Amyton, ND 74746",
+    "last_visit": "2025-05-18",
+    "conditions": [
+      "diabetes",
+      "asthma",
+      "depression",
+      "opioid addiction"
+    ],
+    "medications": [
+      "albuterol",
+      "metformin"
+    ],
+    "ssn": "035-98-9937",
+    "phone_number": "001-403-854-0568x351",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "fdedb8ba-493e-4fc1-aece-a77b59165858",
+    "first_name": "Daniel",
+    "middle_initial": "V",
+    "last_name": "Hall",
+    "name": "Daniel V Hall",
+    "sex": "male",
+    "birth_date": "1997-03-25",
+    "address": "91106 Phillips Orchard, Perezborough, CT 01775",
+    "last_visit": "2025-04-09",
+    "conditions": [
+      "diabetes",
+      "asthma",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "medications": [
+      "atorvastatin",
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.7,
+      "glucose": 196.0
+    },
+    "ssn": "390-38-5036",
+    "phone_number": "001-384-868-2307x68223",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "89e236d6-d30f-49cc-a2a9-9f52b81222b0",
+    "first_name": "Shane",
+    "middle_initial": "U",
+    "last_name": "Myers",
+    "name": "Shane U Myers",
+    "sex": "male",
+    "birth_date": "1946-12-29",
+    "address": "1151 Keith Village Apt. 280, West Michael, TX 13457",
+    "last_visit": "2025-05-11",
+    "conditions": [
+      "asthma",
+      "diabetes",
+      "hypertension",
+      "pregnancy",
+      "HIV"
+    ],
+    "medications": [
+      "lisinopril"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.6,
+      "glucose": 85.1
+    },
+    "ssn": "187-44-0021",
+    "phone_number": "955-805-1146x510",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "c536d072-7ba2-46c9-89d8-10587b1ede66",
+    "first_name": "Nancy",
+    "middle_initial": "R",
+    "last_name": "Mason",
+    "name": "Nancy R Mason",
+    "sex": "female",
+    "birth_date": "2015-07-27",
+    "address": "42849 Smith Mills Apt. 771, Markton, MD 44421",
+    "last_visit": "2025-03-10",
+    "conditions": [
+      "hypertension",
+      "opioid addiction"
+    ],
+    "ssn": "443-30-7746",
+    "phone_number": "2209998311",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "2cc76b47-e63d-4321-9230-1a301cd53d43",
+    "first_name": "David",
+    "middle_initial": "Z",
+    "last_name": "Carson",
+    "name": "David Z Carson",
+    "sex": "male",
+    "birth_date": "1970-10-17",
+    "address": "88642 Carolyn Wells, Port Shaun, MI 68361",
+    "last_visit": "2025-02-13",
+    "conditions": [
+      "asthma",
+      "hypertension",
+      "depression",
+      "pregnancy",
+      "HIV"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.6,
+      "glucose": 161.4
+    },
+    "ssn": "760-80-7179",
+    "phone_number": "450.613.4070x6421",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "961122cd-779d-47aa-be64-dbe4f1205a87",
+    "first_name": "Robyn",
+    "middle_initial": "M",
+    "last_name": "Davis",
+    "name": "Robyn M Davis",
+    "sex": "female",
+    "birth_date": "1957-09-30",
+    "address": "590 Jeff Dam Apt. 237, Melendezburgh, WI 82052",
+    "last_visit": "2025-06-22",
+    "conditions": [
+      "diabetes",
+      "asthma",
+      "opioid addiction"
+    ],
+    "ssn": "530-34-0021",
+    "phone_number": "441.818.6611x403",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "de24561e-dfa5-4d14-91e6-552f6252e99e",
+    "first_name": "Heather",
+    "middle_initial": "B",
+    "last_name": "Becker",
+    "name": "Heather B Becker",
+    "sex": "female",
+    "birth_date": "1949-01-08",
+    "address": "5384 Lauren Points Apt. 705, Lake Amandaland, FM 43714",
+    "last_visit": "2025-02-22",
+    "conditions": [
+      "depression",
+      "asthma",
+      "HIV"
+    ],
+    "medications": [
+      "atorvastatin",
+      "albuterol"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.8,
+      "glucose": 185.7
+    },
+    "ssn": "381-54-6792",
+    "phone_number": "+1-546-431-9364x30450",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "69cccfd4-ca1e-4e1e-b0ba-74f3104e6d48",
+    "first_name": "Matthew",
+    "middle_initial": "M",
+    "last_name": "Martinez",
+    "name": "Matthew M Martinez",
+    "sex": "male",
+    "birth_date": "2023-06-04",
+    "address": "37024 Shirley Course Apt. 574, Lake Karen, IA 82810",
+    "last_visit": "2025-05-22",
+    "conditions": [
+      "depression",
+      "COPD",
+      "asthma",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "medications": [
+      "albuterol"
+    ],
+    "ssn": "616-63-3024",
+    "phone_number": "312-656-4119x0923",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "3958b9cc-4306-46d9-b17e-e819f0657995",
+    "first_name": "Cynthia",
+    "middle_initial": "R",
+    "last_name": "Orozco",
+    "name": "Cynthia R Orozco",
+    "sex": "female",
+    "birth_date": "1955-11-15",
+    "address": "1481 Sarah Ford, West Micheal, LA 47931",
+    "last_visit": "2025-02-22",
+    "conditions": [
+      "diabetes",
+      "HIV"
+    ],
+    "lab_results": {
+      "hemoglobin": 15.8,
+      "glucose": 188.2
+    },
+    "ssn": "131-63-7680",
+    "phone_number": "545.722.8606",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "cc4cd4d1-b31a-4b92-b3a1-045beee4f930",
+    "first_name": "Belinda",
+    "middle_initial": "Z",
+    "last_name": "Solomon",
+    "name": "Belinda Z Solomon",
+    "sex": "female",
+    "birth_date": "1940-03-07",
+    "address": "04985 Love Rest, Mathewsview, MH 02886",
+    "last_visit": "2025-01-02",
+    "conditions": [
+      "depression",
+      "hypertension",
+      "opioid addiction"
+    ],
+    "lab_results": {
+      "hemoglobin": 11.3,
+      "glucose": 128.8
+    },
+    "ssn": "304-33-3837",
+    "phone_number": "523.842.3117",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "594095ab-e16c-453a-910b-b32465e3179a",
+    "first_name": "Savannah",
+    "middle_initial": "U",
+    "last_name": "Ross",
+    "name": "Savannah U Ross",
+    "sex": "female",
+    "birth_date": "1959-10-11",
+    "address": "044 Medina Center Apt. 040, Michaelshire, OK 66207",
+    "last_visit": "2025-02-17",
+    "conditions": [
+      "asthma",
+      "opioid addiction"
+    ],
+    "ssn": "148-69-6220",
+    "phone_number": "001-553-437-6682x512",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "01334bc5-2f4f-4a2f-8018-052a5a60bf95",
+    "first_name": "Elizabeth",
+    "middle_initial": "F",
+    "last_name": "Graham",
+    "name": "Elizabeth F Graham",
+    "sex": "female",
+    "birth_date": "1974-11-05",
+    "address": "6971 Michael Cliff Suite 037, Hunterport, SD 07377",
+    "last_visit": "2025-01-20",
+    "conditions": [
+      "asthma",
+      "diabetes",
+      "depression",
+      "HIV"
+    ],
+    "ssn": "293-30-5150",
+    "phone_number": "(413)661-1068x635",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "c2f686d7-3489-4eb1-9b54-31ddba23cac3",
+    "first_name": "Megan",
+    "middle_initial": "T",
+    "last_name": "Jenkins",
+    "name": "Megan T Jenkins",
+    "sex": "female",
+    "birth_date": "1941-06-11",
+    "address": "9520 Vega Lights Apt. 734, Lake Jennifer, MH 76596",
+    "last_visit": "2025-02-22",
+    "conditions": [
+      "asthma",
+      "HIV"
+    ],
+    "lab_results": {
+      "hemoglobin": 16.3,
+      "glucose": 173.9
+    },
+    "ssn": "182-33-4463",
+    "phone_number": "(912)464-4153x253",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "661689c5-2d09-4f1e-a393-5abdc1785cde",
+    "first_name": "Scott",
+    "middle_initial": "Q",
+    "last_name": "Lopez",
+    "name": "Scott Q Lopez",
+    "sex": "male",
+    "birth_date": "1987-01-24",
+    "address": "500 Michael Well, Colemanton, CA 98618",
+    "last_visit": "2025-08-15",
+    "conditions": [
+      "depression",
+      "COPD",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "medications": [
+      "atorvastatin"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.6,
+      "glucose": 86.4
+    },
+    "ssn": "606-21-7615",
+    "phone_number": "+1-438-429-8435x5842",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "ff1662b9-7139-439a-aca0-aee30a094da1",
+    "first_name": "Anita",
+    "middle_initial": "T",
+    "last_name": "Maynard",
+    "name": "Anita T Maynard",
+    "sex": "female",
+    "birth_date": "1988-12-16",
+    "address": "340 Dawson Port, Johnmouth, AR 37625",
+    "last_visit": "2025-04-19",
+    "conditions": [
+      "arthritis",
+      "asthma",
+      "diabetes",
+      "opioid addiction"
+    ],
+    "medications": [
+      "lisinopril",
+      "sertraline"
+    ],
+    "ssn": "225-94-9114",
+    "phone_number": "788-969-4918x718",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "b88fece6-6cda-43a4-9902-d2c7d1dc90f8",
+    "first_name": "Denise",
+    "middle_initial": "H",
+    "last_name": "Parks",
+    "name": "Denise H Parks",
+    "sex": "female",
+    "birth_date": "1958-09-30",
+    "address": "05418 Rodriguez Extension Apt. 209, New Alexchester, MO 35851",
+    "last_visit": "2025-02-26",
+    "conditions": [
+      "arthritis",
+      "depression",
+      "hypertension",
+      "opioid addiction"
+    ],
+    "lab_results": {
+      "hemoglobin": 11.9,
+      "glucose": 109.4
+    },
+    "ssn": "434-32-0053",
+    "phone_number": "(842)673-3176x24717",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "e61fa274-e4ef-4b05-a8ba-2ccb7a664b7a",
+    "first_name": "William",
+    "middle_initial": "A",
+    "last_name": "Cobb",
+    "name": "William A Cobb",
+    "sex": "male",
+    "birth_date": "1959-11-30",
+    "address": "638 Hailey Grove, North Jo, WI 45542",
+    "last_visit": "2025-01-05",
+    "conditions": [
+      "arthritis",
+      "hypertension",
+      "pregnancy",
+      "HIV"
+    ],
+    "medications": [
+      "lisinopril",
+      "sertraline"
+    ],
+    "lab_results": {
+      "hemoglobin": 13.0,
+      "glucose": 154.7
+    },
+    "ssn": "265-74-8491",
+    "phone_number": "(727)290-8266x4599",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "5de8c630-80be-43a3-a9a3-8d00fdaaa759",
+    "first_name": "Nicholas",
+    "middle_initial": "K",
+    "last_name": "Lewis",
+    "name": "Nicholas K Lewis",
+    "sex": "male",
+    "birth_date": "1965-12-16",
+    "address": "5195 Mathews Branch, Torreshaven, VI 52874",
+    "last_visit": "2025-08-20",
+    "conditions": [
+      "COPD",
+      "asthma",
+      "depression",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.5,
+      "glucose": 168.8
+    },
+    "ssn": "661-42-2381",
+    "phone_number": "479-299-8368",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "c31c616f-a030-4065-960e-00b5fc88d819",
+    "first_name": "Brandon",
+    "middle_initial": "T",
+    "last_name": "Johnson",
+    "name": "Brandon T Johnson",
+    "sex": "male",
+    "birth_date": "1977-04-17",
+    "address": "6406 Adams Roads Suite 518, Monicatown, IL 55501",
+    "last_visit": "2025-02-17",
+    "conditions": [
+      "asthma",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "lab_results": {
+      "hemoglobin": 14.7,
+      "glucose": 149.5
+    },
+    "ssn": "764-40-6982",
+    "phone_number": "(519)801-4885x5537",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "ce74324a-7c0d-46ed-91fb-56cc84afc8de",
+    "first_name": "Monique",
+    "middle_initial": "N",
+    "last_name": "Meyer",
+    "name": "Monique N Meyer",
+    "sex": "female",
+    "birth_date": "1980-09-08",
+    "address": "806 Salazar Greens, Port Madison, KY 62765",
+    "last_visit": "2025-02-03",
+    "conditions": [
+      "COPD",
+      "HIV"
+    ],
+    "ssn": "280-35-5198",
+    "phone_number": "495-885-1311x0512",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "09ae546d-9588-407c-9358-95d25f1937d4",
+    "first_name": "Adam",
+    "middle_initial": "D",
+    "last_name": "Clark",
+    "name": "Adam D Clark",
+    "sex": "male",
+    "birth_date": "1998-11-10",
+    "address": "07129 Howell Crest Suite 362, Lopezmouth, OK 82255",
+    "last_visit": "2025-02-07",
+    "conditions": [
+      "diabetes",
+      "depression",
+      "pregnancy",
+      "HIV"
+    ],
+    "medications": [
+      "lisinopril",
+      "atorvastatin"
+    ],
+    "ssn": "043-62-6494",
+    "phone_number": "6984856904",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "75fc314b-1d4d-4cfc-af73-9d322318225d",
+    "first_name": "Joshua",
+    "middle_initial": "W",
+    "last_name": "Allison",
+    "name": "Joshua W Allison",
+    "sex": "male",
+    "birth_date": "1980-12-24",
+    "address": "58413 Brittany Summit, Whiteland, WV 16154",
+    "last_visit": "2025-06-24",
+    "conditions": [
+      "COPD",
+      "asthma",
+      "depression",
+      "pregnancy",
+      "HIV"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.8,
+      "glucose": 164.6
+    },
+    "ssn": "728-79-4654",
+    "phone_number": "(713)395-7729",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "6802d918-c967-4fdd-9d5d-fe5ee6fe0f2a",
+    "first_name": "Luis",
+    "middle_initial": "J",
+    "last_name": "Pham",
+    "name": "Luis J Pham",
+    "sex": "male",
+    "birth_date": "1936-03-29",
+    "address": "58419 Gillespie Well, Port Carrie, WA 53322",
+    "last_visit": "2025-04-14",
+    "conditions": [
+      "depression",
+      "pregnancy",
+      "opioid addiction"
+    ],
+    "ssn": "714-15-0227",
+    "phone_number": "220-215-8029",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "4acfe6a6-4cce-4704-b533-58096cb4412f",
+    "first_name": "Amber",
+    "middle_initial": "Q",
+    "last_name": "Burgess",
+    "name": "Amber Q Burgess",
+    "sex": "female",
+    "birth_date": "1960-01-04",
+    "address": "0504 Benitez Locks Apt. 454, Port Penny, IL 29025",
+    "last_visit": "2025-07-14",
+    "conditions": [
+      "hypertension",
+      "diabetes",
+      "opioid addiction"
+    ],
+    "medications": [
+      "metformin"
+    ],
+    "lab_results": {
+      "hemoglobin": 11.2,
+      "glucose": 82.9
+    },
+    "ssn": "447-88-2388",
+    "phone_number": "+1-495-919-6677x2121",
+    "guardrail_violation_flag": true
+  },
+  {
+    "patient_id": "40dce8e1-df9b-4c51-bd50-ef1a5363bed7",
+    "first_name": "Eric",
+    "middle_initial": "R",
+    "last_name": "Liu",
+    "name": "Eric R Liu",
+    "sex": "male",
+    "birth_date": "2017-07-14",
+    "address": "0584 Cynthia Station Suite 138, New Anamouth, UT 05578",
+    "last_visit": "2025-03-02",
+    "conditions": [
+      "diabetes",
+      "pregnancy",
+      "HIV"
+    ],
+    "lab_results": {
+      "hemoglobin": 12.4,
+      "glucose": 163.7
+    },
+    "ssn": "658-15-2175",
+    "phone_number": "948-370-3380x0780",
+    "guardrail_violation_flag": true
+  }
+]
