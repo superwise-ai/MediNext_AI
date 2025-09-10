@@ -5,7 +5,7 @@ numpy==1.26.4
 plotly==5.24.1
 
 # HTTP and Environment
-requests==2.32.3
+requests==2.32.4
 python-dotenv==1.0.1
 
 # AgGrid for Interactive Tables
