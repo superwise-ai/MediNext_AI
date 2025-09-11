@@ -45,8 +45,8 @@ def calculate_patient_metrics(df):
             "recent_visits": 0,
         }
 
-    # Calculate age
-    df["age"] = (datetime.now() - df["birth_date"]).dt.days / 365.25
+    # Calculate age (round to whole number)
+    df["age"] = ((datetime.now() - df["birth_date"]).dt.days / 365.25).round(0).astype(int)
 
     # Active patients (visited in last 6 months)
     six_months_ago = datetime.now() - timedelta(days=180)
@@ -77,7 +77,7 @@ def calculate_patient_metrics(df):
         "total_patients": len(df),
         "active_patients": active_patients,
         "critical_alerts": critical_alerts,
-        "avg_age": df["age"].mean(),
+        "avg_age": round(df["age"].mean()),
         "diabetes_patients": diabetes_patients,
         "hypertension_patients": hypertension_patients,
         "guardrail_violations": df["guardrail_violation_flag"].sum(),
@@ -153,7 +153,7 @@ def create_dashboard_cards():
                     <p class="card-title">Avg Age</p>
                 </div>
             </div>
-            <h2 class="card-value">{metrics['avg_age']:.1f}</h2>
+            <h2 class="card-value">{metrics['avg_age']}</h2>
             <p class="card-change">📊 Years</p>
         </div>
         """,

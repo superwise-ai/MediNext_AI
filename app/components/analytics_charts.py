@@ -43,8 +43,8 @@ def analyze_patient_data(df):
     if df is None or len(df) == 0:
         return None
 
-    # Calculate age
-    df["age"] = (datetime.now() - df["birth_date"]).dt.days / 365.25
+    # Calculate age (round to whole number)
+    df["age"] = ((datetime.now() - df["birth_date"]).dt.days / 365.25).round(0).astype(int)
 
     # Extract conditions
     all_conditions = []
@@ -96,7 +96,7 @@ def analyze_patient_data(df):
         "glucose_distribution": glucose_distribution,
         "hemoglobin_distribution": hemoglobin_distribution,
         "total_patients": len(df),
-        "avg_age": df["age"].mean(),
+        "avg_age": round(df["age"].mean()),
         "avg_glucose": df["glucose"].mean(),
         "avg_hemoglobin": df["hemoglobin"].mean(),
     }
@@ -143,7 +143,7 @@ def create_analytics_charts():
         st.metric("Total Patients", f"{analysis['total_patients']:,}")
 
     with col2:
-        st.metric("Average Age", f"{analysis['avg_age']:.1f} years")
+        st.metric("Average Age", f"{analysis['avg_age']:.0f}")
 
     with col3:
         st.metric("Average Glucose", f"{analysis['avg_glucose']:.1f} mg/dL")
@@ -377,25 +377,25 @@ def create_analytics_charts():
                 "Critical Alerts",
             ],
             "Value": [
-                analysis["total_patients"],
-                f"{analysis['avg_age']:.1f} years",
-                len(
+                int(analysis["total_patients"]),
+                int(round(analysis['avg_age'])),
+                int(len(
                     df[df["conditions"].str.contains("diabetes", case=False, na=False)]
-                ),
-                len(
+                )),
+                int(len(
                     df[
                         df["conditions"].str.contains(
                             "hypertension", case=False, na=False
                         )
                     ]
-                ),
-                len(
+                )),
+                int(len(
                     df[
                         (df["glucose"] > 200)
                         | (df["hemoglobin"] < 12)
                         | (df["guardrail_violation_flag"] == True)
                     ]
-                ),
+                )),
             ],
         }
 

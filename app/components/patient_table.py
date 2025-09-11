@@ -204,7 +204,7 @@ def create_patient_table():
     st.markdown(get_common_styles(), unsafe_allow_html=True)
 
     # Enhanced summary statistics
-    col1, col2, col3, col4, col5 = st.columns(5)
+    col1, col2, col3, col4 = st.columns(4)
     with col1:
         st.metric("Total Patients", len(df))
     with col2:
@@ -223,12 +223,6 @@ def create_patient_table():
         else:
             st.metric("Active Patients", "N/A")
     with col3:
-        if "guardrail_violation_flag" in df.columns:
-            guardrail_violations = df["guardrail_violation_flag"].sum()
-            st.metric("Guardrail Violations", guardrail_violations)
-        else:
-            st.metric("Guardrail Violations", "N/A")
-    with col4:
         if "hemoglobin" in df.columns:
             try:
                 avg_hemoglobin = df["hemoglobin"].mean()
@@ -237,7 +231,7 @@ def create_patient_table():
                 st.metric("Avg Hemoglobin", "N/A")
         else:
             st.metric("Avg Hemoglobin", "N/A")
-    with col5:
+    with col4:
         if "glucose" in df.columns:
             try:
                 avg_glucose = df["glucose"].mean()
@@ -257,7 +251,7 @@ def create_patient_table():
 
     # Enhanced search functionality
     search_term = st.text_input(
-        "🔍 Search patients by ID, name, medical conditions, or medications:",
+        "🔍 Search patients by ID, name, medical conditions, medications, phone, or SSN:",
         placeholder="Type to search...",
         key="patient_search",
     )
@@ -271,6 +265,7 @@ def create_patient_table():
             | df["conditions"].str.contains(search_term, case=False, na=False)
             | df["medications"].str.contains(search_term, case=False, na=False)
             | df["glucose"].astype(str).str.contains(search_term, case=False, na=False)
+            | df["phone_number"].str.contains(search_term, case=False, na=False)
             | df["ssn"].str.contains(search_term, case=False, na=False)
         ]
 
@@ -295,7 +290,8 @@ def create_patient_table():
         "medications",
         "glucose",
         "hemoglobin",
-        "guardrail_violation_flag",
+        "phone_number",
+        "ssn",
     ]
 
     display_df = filtered_df[display_columns]
@@ -310,10 +306,16 @@ def create_patient_table():
 
     display_df = display_df.rename(columns=column_rename_map)
 
-    # Convert guardrail_violation_flag to Yes/No for display
-    display_df["guardrail_violation_flag"] = display_df["guardrail_violation_flag"].map(
-        {True: "Yes", False: "No"}
-    )
+    # Handle empty values for phone_number and ssn - show empty cell if empty
+    def format_empty_values(value):
+        """Format empty values to show empty cell"""
+        if pd.isna(value) or str(value).strip() == "":
+            return ""
+        return str(value)
+    
+    # Apply empty value formatting to phone_number and ssn
+    display_df["phone_number"] = display_df["phone_number"].apply(format_empty_values)
+    display_df["ssn"] = display_df["ssn"].apply(format_empty_values)
 
     # Format dates to dd-MMM-yyyy format
     def format_date(date_val):

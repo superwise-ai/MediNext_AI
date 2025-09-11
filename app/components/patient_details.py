@@ -25,6 +25,48 @@ from app.config.api_config import (
 logger = get_logger(__name__)
 
 
+def calculate_age(birth_date):
+    """
+    Calculate age from birth date
+    
+    Args:
+        birth_date (str): Birth date in format 'YYYY-MM-DD' or 'MM/DD/YYYY' or 'DD-MMM-YYYY'
+    
+    Returns:
+        int: Age in years, or None if invalid date format
+    """
+    try:
+        # Handle different date formats
+        if isinstance(birth_date, str):
+            # Try different date formats - prioritize dd-MMM-yyyy format
+            for fmt in ['%d-%b-%Y', '%Y-%m-%d', '%m/%d/%Y', '%d/%m/%Y', '%Y-%m-%d %H:%M:%S']:
+                try:
+                    birth_dt = datetime.strptime(birth_date, fmt)
+                    break
+                except ValueError:
+                    continue
+            else:
+                logger.warning(f"Could not parse birth date: {birth_date}")
+                return None
+        else:
+            # If it's already a datetime object
+            birth_dt = birth_date
+        
+        # Calculate age
+        today = datetime.now()
+        age = today.year - birth_dt.year
+        
+        # Adjust if birthday hasn't occurred this year
+        if today.month < birth_dt.month or (today.month == birth_dt.month and today.day < birth_dt.day):
+            age -= 1
+            
+        return age
+        
+    except Exception as e:
+        logger.error(f"Error calculating age from {birth_date}: {str(e)}")
+        return None
+
+
 def call_superwise_api(patient_data):
     """
     Call the Superwise API with patient data
@@ -43,21 +85,26 @@ def call_superwise_api(patient_data):
             "message": "Superwise API configuration is missing. Please set environment variables in .env file.",
         }
 
+    age = calculate_age(patient_data['birth_date']) if patient_data['birth_date'] else ""
+    
     try:
         # Prepare the request payload
         payload = {
             "input": f"""Here is de-identified patient information:
-                        #- Date of Birth: {patient_data['birth_date']} # change to age
-                        - SSN: {patient_data.get('ssn', '')}
-                        - Phone Number: {patient_data.get('phone_number', '')}
+                        - Age: {age}
+                        {f"- SSN: {patient_data.get('ssn', '').strip()}" if patient_data.get('ssn', '').strip() else ""}
+                        {f"- Phone Number: {patient_data.get('phone_number', '').strip()}" if patient_data.get('phone_number', '').strip() else ""}
                         - Gender: {patient_data['sex']}
                         - Medical Conditions: {patient_data['conditions']}
                         - Hemoglobin Level: {patient_data['hemoglobin']} g/dL
                         - Current Medications: {patient_data['medications']}
                         - Glucose Level: {patient_data['glucose']} mg/dL
+
                         Please provide:
+
                         1. General interpretation of this data (clinical significance).
                         2. General next steps a healthcare professional might consider.
+                        
                         Keep the details concise so doctors can read quickly and provide their judgment.""",
             "chat_history": [],
         }
@@ -70,6 +117,7 @@ def call_superwise_api(patient_data):
 
         # Make the API call
         logger.info(f"Calling Superwise API for patient: {patient_data['patient_id']}")
+        logger.info(f"Payload: {payload}")
         response = requests.post(
             api_url, json=payload, headers=headers, timeout=API_TIMEOUT
         )
@@ -128,6 +176,7 @@ def get_sample_patient_data():
         "name": "John A Doe",
         "sex": "M",
         "birth_date": "1979-05-15",
+        "age": calculate_age("1979-05-15"),
         "address": "123 Main St, Anytown, ST 12345",
         "last_visit": "2024-01-15",
         "conditions": "Hypertension, Type 2 Diabetes",
@@ -136,9 +185,7 @@ def get_sample_patient_data():
         "glucose": 95,
         "ssn": "123-45-6789",
         "phone_number": "555-0101",
-        "guardrail_violation_flag": True,
     }
-
 
 def create_patient_details():
     """
@@ -177,18 +224,14 @@ def create_patient_details():
             "name": selected_patient["name"],
             "sex": selected_patient.get("gender", "M"),
             "birth_date": selected_patient["birth_date"],
-            "address": "123 Main St, Anytown, ST 12345",  # Default address
+            "address": selected_patient.get("address", ""),
             "last_visit": selected_patient["last_visit"],
             "conditions": selected_patient.get("medical_conditions", "None"),
             "medications": selected_patient.get("medications", "None"),
             "hemoglobin": float(selected_patient.get("hemoglobin_g/dL", 14.0)),
             "glucose": float(selected_patient.get("glucose_mg/dL", 100)),
-            "ssn": "123-45-6789",  # Default SSN
-            "phone_number": "555-0101",  # Default phone
-            "guardrail_violation_flag": selected_patient.get(
-                "guardrail_violation_flag", "No"
-            )
-            == "Yes",
+            "ssn": selected_patient.get("ssn", ""),
+            "phone_number": selected_patient.get("phone_number", ""),
         }
     else:
         # Use sample data if no patient is selected
@@ -241,18 +284,6 @@ def create_patient_details():
 
         st.markdown("**Last Visit:**")
         st.write(patient_data["last_visit"])
-
-        st.markdown("**Guardrail Status:**")
-        if patient_data["guardrail_violation_flag"]:
-            st.markdown(
-                '<span class="status-badge status-violation">Violation Detected</span>',
-                unsafe_allow_html=True,
-            )
-        else:
-            st.markdown(
-                '<span class="status-badge status-clear">Clear</span>',
-                unsafe_allow_html=True,
-            )
 
     st.markdown("---")
 
@@ -311,7 +342,29 @@ def create_patient_details():
                         # Fallback: convert to string if unexpected format
                         response_text = str(api_data)
 
-                    st.session_state.superwise_response = response_text
+                    # Check for guardrail violation
+                    guardrail_keywords = [
+                        "guardrail violation",
+                        "message has been blocked",
+                        "blocked due to a guardrail",
+                        "rephrase your message"
+                    ]
+                    
+                    is_guardrail_violation = any(
+                        keyword.lower() in response_text.lower() 
+                        for keyword in guardrail_keywords
+                    )
+                    
+                    if is_guardrail_violation:
+                        # Format guardrail violation with highlighting
+                        st.session_state.superwise_response = f"""
+                        <div style="background-color: #ffebee; border-left: 4px solid #f44336; padding: 15px; margin: 10px 0; border-radius: 4px;">
+                            <h4 style="color: #d32f2f; margin: 0 0 10px 0;">⚠️ Guardrail Violation Detected</h4>
+                            <p style="color: #c62828; margin: 0; font-weight: 500;">{response_text}</p>
+                        </div>
+                        """
+                    else:
+                        st.session_state.superwise_response = response_text
                 else:
                     # Show error message
                     st.session_state.superwise_response = f"""
@@ -321,9 +374,6 @@ def create_patient_details():
                     
                     Please try again or contact support if the problem persists.
                     """
-
-                st.rerun()
-
     with col2:
         if "superwise_response" in st.session_state:
             st.markdown("**Superwise Response:**")
@@ -336,17 +386,6 @@ def create_patient_details():
 
                 # Display the main response content
                 st.markdown(st.session_state.superwise_response, unsafe_allow_html=True)
-
-                # Add guardrail status as a metric
-                guardrail_status = (
-                    "⚠️ Violation Detected"
-                    if patient_data["guardrail_violation_flag"]
-                    else "✅ Clear"
-                )
-
-                st.markdown(
-                    f"**Guardrail Status:** {guardrail_status}", unsafe_allow_html=True
-                )
 
                 st.markdown("---")
         else:
@@ -368,6 +407,12 @@ def show_patient_details_page():
     Wrapper function to show the patient details page with proper layout.
     This can be called from main.py when navigating to patient details.
     """
+
+    # Clear Superwise response from session state
+    if "superwise_response" in st.session_state:
+        del st.session_state.superwise_response
+        logger.info("🧹 Cleared Superwise response for fresh patient analysis")
+
     # Create header with title and back button inline
     col1, col2 = st.columns([3, 1])
     with col1:
@@ -378,6 +423,10 @@ def show_patient_details_page():
         )  # Add some spacing to align with title
         if st.button("← Back to Patients", key="back_to_patients"):
             st.session_state.current_page = "patients"
+            # Clear Superwise response from session state
+            if "superwise_response" in st.session_state:
+                del st.session_state.superwise_response
+                logger.info("🧹 Cleared Superwise response for fresh patient analysis")
             st.rerun()
 
     st.markdown("---")

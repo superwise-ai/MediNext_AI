@@ -15,6 +15,44 @@ def get_common_styles():
     """
     return """
     <style>
+    /* Import Inter font from Google Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+    
+    /* Override Streamlit default font to Inter, excluding sidebar buttons */
+    .stApp, .stApp > div, .main .block-container, 
+    .stMarkdown, .stText, .stSelectbox, .stTextInput, 
+    .stNumberInput, .stTextArea, .stDateInput, .stTimeInput,
+    .stFileUploader, .stColorPicker, .stSlider, .stRadio, 
+    .stCheckbox, .stMultiselect, .stDataFrame, .stTable, 
+    .stMetric, .stAlert, .stSuccess, .stInfo, .stWarning, 
+    .stError, .stCaption, .stCode, .stJson, .stLatex, .stMath,
+    .stPlotlyChart, .stPyplot, .stBokehChart, .stAltairChart,
+    .stVegaLiteChart, .stGraphvizChart, .stMap, .stImage,
+    .stVideo, .stAudio, .stDownloadButton, .stButton,
+    .stSidebar .stMarkdown, .stSidebar .stText, .stSidebar .stSelectbox,
+    .stSidebar .stTextInput, .stSidebar .stNumberInput, .stSidebar .stTextArea,
+    .stSidebar .stDateInput, .stSidebar .stTimeInput, .stSidebar .stFileUploader,
+    .stSidebar .stColorPicker, .stSidebar .stSlider, .stSidebar .stRadio,
+    .stSidebar .stCheckbox, .stSidebar .stMultiselect, .stSidebar .stDataFrame,
+    .stSidebar .stTable, .stSidebar .stMetric, .stSidebar .stAlert,
+    .stSidebar .stSuccess, .stSidebar .stInfo, .stSidebar .stWarning,
+    .stSidebar .stError, .stSidebar .stCaption, .stSidebar .stCode,
+    .stSidebar .stJson, .stSidebar .stLatex, .stSidebar .stMath,
+    .stSidebar .stPlotlyChart, .stSidebar .stPyplot, .stSidebar .stBokehChart,
+    .stSidebar .stAltairChart, .stSidebar .stVegaLiteChart, .stSidebar .stGraphvizChart,
+    .stSidebar .stMap, .stSidebar .stImage, .stSidebar .stVideo,
+    .stSidebar .stAudio, .stSidebar .stDownloadButton {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+    }
+    
+    /* Protect sidebar buttons from font changes */
+    .stSidebar button[data-testid="baseButton-secondary"],
+    .stSidebar button[data-testid="baseButton-secondary"] *,
+    .stSidebar .stButton button,
+    .stSidebar .stButton button * {
+        font-family: inherit !important;
+    }
+    
     /* ===== COMMON CARD STYLES ===== */
     .common-card {
         background: white;
@@ -525,7 +563,7 @@ def get_common_styles():
         font-size: 1.5rem;
         font-weight: 700;
         color: #2c2f38;
-        font-family: Arial, sans-serif;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     }
     
     .title {
@@ -533,7 +571,7 @@ def get_common_styles():
         font-size: 1.5rem;
         font-weight: bold;
         margin: 0;
-        font-family: Arial, sans-serif;
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     }
     
     .logout-button {

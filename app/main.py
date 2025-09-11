@@ -198,6 +198,15 @@ def main():
 
     # Update page state if sidebar button was clicked
     if selected_page != st.session_state.current_page:
+        # Clear patient data when navigating away from patient details
+        if st.session_state.current_page == "patient_details" and selected_page != "patient_details":
+            if "selected_patient_data" in st.session_state:
+                del st.session_state.selected_patient_data
+                logger.info("🧹 Cleared selected_patient_data from session state")
+            if "selected_patient_rows" in st.session_state:
+                del st.session_state.selected_patient_rows
+                logger.info("🧹 Cleared selected_patient_rows from session state")
+        
         st.session_state.current_page = selected_page
         logger.info(f"🔧 Updated session state: current_page = {selected_page}")
         st.rerun()
