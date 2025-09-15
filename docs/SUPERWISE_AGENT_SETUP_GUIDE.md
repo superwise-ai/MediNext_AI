@@ -12,32 +12,37 @@ This guide explains how to set up and use the Superwise API integration in MediN
 
 **Note**: You'll also need an **OpenAI API key** for the model setup (Step 7). If you don't have one, create an account at [OpenAI Platform](https://platform.openai.com/) and generate an API key.
 
-### **Step 2: Create Application**
+### **Step 2: Create Agent**
 
-1. **Navigate to Applications**: In your Superwise dashboard, go to "Applications" section
-2. **Create New App**: Click "Create Application" or "New App"
-3. **Select Framework**: Choose **"Superwise Framework"** (not Flowise Framework)
-4. **Application Creation Dialog**: A dialog will open with the following fields:
+1. **Navigate to Agents**: In your Superwise dashboard, go to "Agents" section
+2. **Create New Agent**: Click "Create" button from top right corner
+3. **Agent Creation Dialog**: A dialog will open with the following fields:
    - **Application Name**: Enter `MediNext AI` (or your preferred name)
-   - **Application Type**: Select **"Basic LLM Assistant"** (option 3)
+   - **Agent source**: Choose **"Build with Superwise Studio"** (not Integrate with Flowise) and click on **Next** button
+4. **Agent Type**: Select **"Basic LLM Assistant"** (option 1)
      - Available options:
-       - AI-Assistant Retrieval (option 1)
-       - Advanced Agent (option 2)
-       - **Basic LLM Assistant (option 3)** ← Select this one
-5. **Complete Creation**: Click "Done" to create the application
-6. **Application Dashboard**: After clicking "Done", you'll see the application dashboard with:
-   - **Top Left**: Application name and **App ID** (copy this for your `.env` file)
-   - **Top Right**: Two action buttons:
-     - **"+Model"**: Add AI models to your application
-     - **"Save&Publish"**: Save and publish your application
-   - **Main Area**: 
-     - **Chat Playground**: Interactive testing area for your application
-   - **Left Sidebar**: Configuration sections:
-     - **"Prompt"**: Configure prompts and instructions
-     - **"Authentication"**: Set up API authentication
-     - **"Guardrails"**: Configure safety and compliance rules
+       - **Basic LLM Assistant (option 1)** ← Select this one
+       - AI-Assistant Retrieval (option 2)
+       - Advanced Agent (option 3)
+5. **Complete Creation**: Click "Create" to create the agent
+6. **Agent Dashboard**: After clicking "Done", you'll see the agent dashboard with:
+   - **Top Left**: Application name
+   - **Top Right**: Three dots menu: click on and select **Copy ID** (this is for your `.env` file)
+   - **Top Center**: There are 3 tabs:
+      - **Overview**: In this tab you can see **Agent Details**, **Description** and **Metrics** section
+      - **Builder**: In this tab you can see **Setup** and **Guardrails** menu on the left side and **Chat playground** on the right side
+         - **Setup**:
+            - **"+Model"**: Add AI models to your application
+            - **"Prompt"**: Configure prompts and instructions
+            - **Chat Playground**: Interactive testing area for your application
+         - **Guardrails**: Configure safety and compliance rules
+            - **+ Rule**: Add Guardrail Rules for input and output
+      - **Settings**:
+         - **"Authentication"**: Set up API authentication
+         - **Observability**: Integrate your agent with Superwise observability to gain real-time data about your agent's behavior, usage, and potential feedback.
+      - **"Publish"**: Publish your application
 
-7. **Model Setup**: Configure the AI model for your application:
+### **Step 3: Configure Model**
    - **Click "+Model" Button**: Located in the top right of the dashboard
    - **Model Provider Dialog**: A dialog will open with provider options:
      - OpenAI
@@ -46,57 +51,99 @@ This guide explains how to set up and use the Superwise API integration in MediN
      - Other providers
    - **Select Provider**: Choose **"OpenAI"** as the model provider
    - **Prerequisites**: Ensure you have an OpenAI API key/token
-   - **Model Selection**: Select **"gpt-4.1"** (recommended model)
+   - **Model Selection**: Select **"gpt-4"** (recommended model)
    - **API Configuration**:
      - **API Token Box**: Enter your OpenAI API key/token
      - **Click "Save"**: Complete the model setup
 
-8. **Prompt Configuration**: Set up the AI assistant's behavior and instructions:
-   - **Navigate to Prompt Section**: Click on "Prompt" in the left sidebar
+### **Step 4: Configure Prompt**
+   - **Navigate to Prompt Section**: Click on "Prompt" under Builder->Setup tab
    - **Add System Prompt**: Copy and paste the following prompt into the prompt dialog box:
 
    ```
    You are a clinical decision-support assistant for healthcare professionals. I will provide you with de-identified and synthetic patient information or laboratory test results.
-
-   Your task:
-
-   Interpret the data in general, non-patient-specific, and educational terms.
-
-   If the information is unclear, incomplete, or contradictory, clearly state:
-   "The data provided is insufficient or inconsistent for reliable interpretation."
-
-   For each condition or finding:
-
-   Summarize the possible clinical significance
-
-   Outline common causes or contributors
-
-   After all conditions are described, provide one consolidated section of general next steps that a healthcare professional might consider (e.g., further diagnostic testing, specialist referral, lifestyle review).
-
-   Do not provide a definitive diagnosis or specific treatment instructions. Instead, emphasize contextual interpretation and general medical reasoning.
-
-   Always include a closing note:
-   "This information is intended for clinical decision-support and contextual understanding by healthcare professionals. Final decisions must be made by licensed providers with access to the complete patient history and clinical context."
+ 
+Your task:
+Interpret the data in general, non-patient-specific, and educational terms.
+If the information is unclear, incomplete, or contradictory, clearly state:
+"The data provided is insufficient or inconsistent for reliable interpretation."
+For each condition or finding:
+Summarize the possible clinical significance
+Outline common causes or contributors
+ 
+Output Rules:
+Never provide a definitive diagnosis.
+Never provide specific treatment instructions.
+After all conditions are described, provide one consolidated section of general next steps that a healthcare professional might consider (e.g., further diagnostic testing, specialist referral, lifestyle review).
+ 
+Do not provide a definitive diagnosis or specific treatment instructions. Instead, emphasize contextual interpretation and general medical reasoning.
+ 
+If the request asks for a definitive diagnosis, prescription, or treatment instructions, do not provide them. Instead, redirect to educational interpretation only.
+ 
+Always include a closing note:
+"This information is intended for clinical decision-support and contextual understanding by healthcare professionals. Final decisions must be made by licensed providers with access to the complete patient history and clinical context."
    ```
 
    - **Save Prompt**: Click "Save" to save the prompt configuration
 
-9. **Publish Application**: Make your application available for use:
-   - **Click "Save&Publish" Button**: Located in the top right of the dashboard
+### **Step 5: Configure Guardrails**
+
+Set up safety and compliance rules to protect sensitive patient information:
+
+1. **Navigate to Guardrails**: Click on "Guardrails" under Builder tab
+2. **Add Input Rule**: Click "+ Rule" button to add a new guardrail rule
+3. **Select Rule Type**: Choose **"Restricted topics input"** from the available rule types
+4. **Configure Input Rule**:
+   - **Name**: Enter `Personal Identifiable Information Input`
+   - **Configuration**: Select **"Identifiable Patient Information"** from the dropdown
+   - **Specific Fields**: Check the following boxes:
+     - Social Security Number
+     - Phone Number
+     - Patient Name
+     - Home Address
+     - Date of Birth
+   - **Model**: Select **"OpenAI"** as the model provider
+   - **Model Version**: Choose **"gpt-4o"** (or your preferred model)
+   - **API Token**: Enter your OpenAI API key/token
+   - **Save Rule**: Click "Save" to create the input guardrail rule
+
+5. **Add Output Rule**: Click "+ Rule" button again to add an output guardrail
+6. **Configure Output Rule**:
+   - **Rule Type**: Select **"Restricted topics output"**
+   - **Name**: Enter `Personal Identifiable Information Output`
+   - **Configuration**: Select **"Identifiable Patient Information"** from the dropdown
+   - **Specific Fields**: Check the following boxes:
+     - Social Security Number
+     - Phone Number
+     - Patient Name
+     - Home Address
+     - Date of Birth
+   - **Model**: Select **"OpenAI"** as the model provider
+   - **Model Version**: Choose **"gpt-4o"** (or your preferred model)
+   - **API Token**: Enter your OpenAI API key/token
+   - **Save Rule**: Click "Save" to create the output guardrail rule
+
+**Purpose**: These guardrails ensure that:
+- **Input Protection**: Prevents sensitive patient information from being processed by the AI
+- **Output Protection**: Ensures the AI doesn't generate or expose sensitive patient data
+- **Compliance**: Helps maintain HIPAA compliance and data privacy standards
+
+### **Step 6: Publish Application**
+   - **Click "Publish" Button**: Located in the top right of the dashboard
    - **Wait for Processing**: The system will process your configuration (may take a few minutes)
    - **Check Status**: Monitor the application status on the right side top near "Created at"
    - **Status Confirmation**: Once ready, you'll see status change to **"Available"**
 
 ✅ **Congratulations! Your Superwise application is now ready to use.**
 
-10. **Get Credentials**: From the dashboard, you can find:
-    - **App ID**: Located below the application name (top left) - **Copy this for your project**
+### **Step 7: Get Credentials**
+    - **App ID**: Located in three dots menu: click on and select **Copy ID** (top left) - **Copy this for your project**
     - **API URL**: Base URL for API calls (usually `https://api.superwise.ai/`)
     - **API Version**: Current API version (usually `v1`)
 
 ## 🔧 Configuration Setup
 
-### **Step 11: Configure Project Environment Variables**
+### **Step 8: Configure Project Environment Variables**
 
 Now that your Superwise application is ready, you need to configure it in your MediNext AI project:
 
@@ -132,9 +179,9 @@ Now that your Superwise application is ready, you need to configure it in your M
    RETRY_DELAY=1
    ```
 
-3. **Replace App ID**: Update `SUPERWISE_APP_ID` with your actual App ID from Step 10 (the one you copied from the Superwise dashboard)
+3. **Replace App ID**: Update `SUPERWISE_APP_ID` with your actual App ID from Step 7 (the one you copied from the Superwise dashboard)
 
-### **Step 12: Test Integration**
+### **Step 9: Test Integration**
 
 1. **Start Application**: Run the application using Docker or local Python
 2. **Navigate to Patient Details**: Go to `/patient-details` page
@@ -145,7 +192,7 @@ Now that your Superwise application is ready, you need to configure it in your M
 
 **Common Issues:**
 - **Wrong Framework Selected**: Ensure you selected "Superwise Framework" (not Flowise Framework) during app creation
-- **Wrong Application Type**: Make sure you selected "Basic LLM Assistant" (option 3) in the application type dialog
+- **Wrong Application Type**: Make sure you selected "Basic LLM Assistant" (option 1) in the application type dialog
 - **Invalid App ID**: Double-check your App ID in Superwise dashboard
 - **API URL Issues**: Ensure `SUPERWISE_API_URL` matches your Superwise region
 - **Timeout Errors**: Increase `API_TIMEOUT` value if experiencing slow responses

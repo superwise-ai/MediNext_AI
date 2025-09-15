@@ -3,7 +3,7 @@
 
 
 <a href="https://superwise.ai/" target="_blank">
-<img src="https://superwise.ai/wp-content/uploads/2024/05/Superwise-logo.svg" alt="SUPERWISE® Logo" width="350"/></a>
+<img src="app/assets/superwise_logo.svg" alt="SUPERWISE® Logo" width="350"/></a>
 
 **Powered by SUPERWISE® — Leading AI Governance, Risk & Compliance Solutions**
 
@@ -14,6 +14,11 @@
 </div>
 <h2>MediNext AI</h2>
 A modern AI-powered Healthcare Management System built with Streamlit, featuring a comprehensive dashboard for healthcare professionals with Superwise AI integration.
+
+## 🏢 **Ready for Business?**
+
+**Transform your business operations with Superwise AI**: [Get Started with Superwise](https://docs.superwise.ai/docs/introduction-to-superwise) - Enterprise-grade AI governance, risk & compliance solutions for healthcare and other businesses.
+
 <h3>🚀 Quick Start</h3>
 
 
