@@ -5,7 +5,7 @@
 <a href="https://superwise.ai/" target="_blank">
 <img src="app/assets/superwise_logo.svg" alt="SUPERWISE® Logo" width="350"/></a>
 
-**Powered by SUPERWISE® — Leading AI Governance, Risk & Compliance Solutions**
+**Powered by SUPERWISE® — Leading Agentic Governance & Operations Solutions**
 
 [![Powered by SUPERWISE®](https://img.shields.io/badge/Powered%20by-SUPERWISE®-0052CC?style=for-the-badge&logo=superuser)](https://superwise.ai)
 [![AI Healthcare](https://img.shields.io/badge/AI%20Healthcare-Management-00A86B?style=for-the-badge&logo=medical)](https://superwise.ai)
